@@ -1,9 +1,0 @@
-{
-  "commitish" : "v3.0.0",
-  "iOS" : [
-    {
-      "hash" : "0fc41294e1efa998f9feb8c9581c76a0257d17cde3c796f1e361169fed77db6c",
-      "name" : "SkyFloatingLabelTextField"
-    }
-  ]
-}

@@ -2,15 +2,15 @@
   "commitish" : "sdk-version-4.21.0",
   "iOS" : [
     {
-      "hash" : "f6234a7f7a9e50084a2a04368af57e460f1d53b1725bae455f104fa9e18d7fc2",
-      "name" : "FBSDKLoginKit"
-    },
-    {
-      "hash" : "9c324568240457f01be5a2273b7cdef6d05a562476e241882504000690e0e433",
+      "hash" : "847efdcf1719127e20c22cf6a090172f43090bafdb7bb1defad5506695ac56c2",
       "name" : "FBSDKShareKit"
     },
     {
-      "hash" : "de41d1949720111c244344d5c26c174e2c5b8cef2b30d0aaf143c97cad148f3a",
+      "hash" : "f0e62912137168bf3593915b0f0d056e5b78cdc81758765f0fecad5a95a83944",
+      "name" : "FBSDKLoginKit"
+    },
+    {
+      "hash" : "30810aacd26fc4932ee6288a18401ab7d0c55fde92af9cc4479d8f056b419fe9",
       "name" : "FBSDKCoreKit"
     }
   ]
