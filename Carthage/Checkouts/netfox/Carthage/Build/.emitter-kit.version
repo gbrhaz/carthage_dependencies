@@ -1,9 +1,0 @@
-{
-  "commitish" : "5.0.1",
-  "iOS" : [
-    {
-      "hash" : "e520979cec307d15f3ba1b3d8fad8e0af29d46e54053250342d4d2f0ffbe904b",
-      "name" : "EmitterKit"
-    }
-  ]
-}

@@ -1,9 +1,0 @@
-{
-  "commitish" : "5.0.0",
-  "iOS" : [
-    {
-      "hash" : "1f2e001807e23dd088f26a42b46979492d726b59c3788b6db336688ac3bdc9d1",
-      "name" : "ReactiveCocoa"
-    }
-  ]
-}

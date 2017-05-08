@@ -1,9 +1,0 @@
-{
-  "commitish" : "89ec66720fcb500a99ccb1c1f8bb340ddb010a3b",
-  "iOS" : [
-    {
-      "hash" : "de0a7b14fc05183c48a196e096b15993202fb194e3f7162d3bbbe86722cd3417",
-      "name" : "netfox_ios"
-    }
-  ]
-}
