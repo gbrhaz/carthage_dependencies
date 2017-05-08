@@ -1,0 +1,3 @@
+framework module netfox_ios {
+    header "netfox_ios-Swift.h"
+}

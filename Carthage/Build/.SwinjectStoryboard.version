@@ -1,0 +1,9 @@
+{
+  "commitish" : "1.0.0",
+  "iOS" : [
+    {
+      "hash" : "98605179688a02280033e32162ce541d21710b7e539fe36a5711250d26960a55",
+      "name" : "SwinjectStoryboard"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "commitish" : "2.2.0",
+  "iOS" : [
+    {
+      "hash" : "6704b720b3966b7d54ac0d71bbd07695e8d251c010368843ac7a9c3127474c13",
+      "name" : "CoreActionSheetPicker"
+    }
+  ]
+}

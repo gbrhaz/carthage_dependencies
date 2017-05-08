@@ -1,0 +1,9 @@
+{
+  "commitish" : "1.2.3",
+  "iOS" : [
+    {
+      "hash" : "c123c0f3d46ef425cf14a3f711def7ec4e8278498efd0abc78ec0673fe8e4581",
+      "name" : "PhoneNumberKit"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "commitish" : "RNCryptor-5.0.1",
+  "iOS" : [
+    {
+      "hash" : "80ffe1bcc4e961500bd73257ac57f1b209146a620adfa6f6eb9eb8670a97a484",
+      "name" : "RNCryptor"
+    }
+  ]
+}

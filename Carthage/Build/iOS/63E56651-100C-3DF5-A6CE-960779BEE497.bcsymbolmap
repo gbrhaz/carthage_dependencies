@@ -1,0 +1,1691 @@
+BCSymbolMap Version: 2.0
+-[PWBaseTracker prepareForLocationUpdates]
+-[PWBaseTracker log:]
+-[PWBaseTracker isInBackground]
+-[PWBaseTracker startBackgroundTask]
+___36-[PWBaseTracker startBackgroundTask]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[PWBaseTracker stopBackgroundTask:]
+-[PWBaseTracker shouldHandleRegion:]
+-[PWBaseTracker locationServiceDenied]
+-[PWBaseTracker requestLocationAuthorization]
+-[PWBaseTracker locationManager]
+-[PWBaseTracker setLocationManager:]
+-[PWBaseTracker enabled]
+-[PWBaseTracker setEnabled:]
+-[PWBaseTracker .cxx_destruct]
+___block_descriptor_tmp
+_OBJC_IVAR_$_PWBaseTracker._locationManager
+_OBJC_IVAR_$_PWBaseTracker._enabled
+l_OBJC_PROTOCOL_$_NSObject
+l_OBJC_LABEL_PROTOCOL_$_NSObject
+l_OBJC_PROTOCOL_$_CLLocationManagerDelegate
+l_OBJC_LABEL_PROTOCOL_$_CLLocationManagerDelegate
+_OBJC_IVAR_$_PWBaseTracker._regionMonitoringBGTask
+-[PWSendBadgeRequest methodName]
+-[PWSendBadgeRequest requestDictionary]
+-[PWSendBadgeRequest badge]
+-[PWSendBadgeRequest setBadge:]
+_OBJC_IVAR_$_PWSendBadgeRequest.badge
+_logLevelTags
+-[PWGetNearestZoneRequest methodName]
+-[PWGetNearestZoneRequest requestDictionary]
+-[PWGetNearestZoneRequest processGeozone:]
+-[PWGetNearestZoneRequest parseResponse:]
+-[PWGetNearestZoneRequest userCoordinate]
+-[PWGetNearestZoneRequest setUserCoordinate:]
+-[PWGetNearestZoneRequest nearestGeozones]
+-[PWGetNearestZoneRequest setNearestGeozones:]
+-[PWGetNearestZoneRequest .cxx_destruct]
+_OBJC_IVAR_$_PWGetNearestZoneRequest._userCoordinate
+_OBJC_IVAR_$_PWGetNearestZoneRequest._nearestGeozones
++[PWInAppEventDispatcher inAppDisplayed:]
++[PWInAppEventDispatcher inAppClosed:]
++[PWWebClient addJavascriptInterface:withName:]
+___47+[PWWebClient addJavascriptInterface:withName:]_block_invoke
+-[PWWebClient initWithWebView:]
+-[PWWebClient loadPushwooshUrl:]
+-[PWWebClient webViewDidStartLoad:]
+-[PWWebClient webViewDidFinishLoad:]
+-[PWWebClient webView:shouldStartLoadWithRequest:navigationType:]
+___65-[PWWebClient webView:shouldStartLoadWithRequest:navigationType:]_block_invoke
+-[PWWebClient webView:didFailLoadWithError:]
+-[PWWebClient onMessageClose]
+-[PWWebClient close]
+-[PWWebClient delegate]
+-[PWWebClient setDelegate:]
+-[PWWebClient javascriptInterfaces]
+-[PWWebClient setJavascriptInterfaces:]
+-[PWWebClient webView]
+-[PWWebClient setWebView:]
+-[PWWebClient .cxx_destruct]
+_addJavascriptInterface:withName:.onceToken
+_sJavaScriptInterfaces
+___block_literal_global
+_OBJC_IVAR_$_PWWebClient._webView
+_OBJC_IVAR_$_PWWebClient._javascriptInterfaces
+___block_descriptor_tmp.87
+_OBJC_IVAR_$_PWWebClient._delegate
+l_OBJC_PROTOCOL_$_UIWebViewDelegate
+l_OBJC_LABEL_PROTOCOL_$_UIWebViewDelegate
+l_OBJC_PROTOCOL_$_PWPushManagerJSBridgeDelegate
+l_OBJC_LABEL_PROTOCOL_$_PWPushManagerJSBridgeDelegate
+-[PWGeoLocationManager init]
+___28-[PWGeoLocationManager init]_block_invoke
+-[PWGeoLocationManager sendLocation:]
+___37-[PWGeoLocationManager sendLocation:]_block_invoke
+___copy_helper_block_.39
+___destroy_helper_block_.40
+-[PWGeoLocationManager startLocationTracking]
+-[PWGeoLocationManager stopLocationTracking]
+-[PWGeoLocationManager locationTracker]
+-[PWGeoLocationManager setLocationTracker:]
+-[PWGeoLocationManager requestManager]
+-[PWGeoLocationManager setRequestManager:]
+-[PWGeoLocationManager .cxx_destruct]
+_OBJC_IVAR_$_PWGeoLocationManager._locationTracker
+_OBJC_IVAR_$_PWGeoLocationManager._requestManager
+___block_descriptor_tmp.42
++[PWReachability reachabilityWithHostname:]
++[PWReachability reachabilityWithAddress:]
++[PWReachability reachabilityForInternetConnection]
++[PWReachability reachabilityForLocalWiFi]
+-[PWReachability initWithReachabilityRef:]
+-[PWReachability dealloc]
+-[PWReachability startNotifier]
+_TMReachabilityCallback
+-[PWReachability stopNotifier]
+-[PWReachability isReachableWithFlags:]
+-[PWReachability isReachable]
+-[PWReachability isReachableViaWWAN]
+-[PWReachability isReachableViaWiFi]
+-[PWReachability isConnectionRequired]
+-[PWReachability connectionRequired]
+-[PWReachability isConnectionOnDemand]
+-[PWReachability isInterventionRequired]
+-[PWReachability currentReachabilityStatus]
+-[PWReachability reachabilityFlags]
+-[PWReachability currentReachabilityString]
+-[PWReachability currentReachabilityFlags]
+-[PWReachability reachabilityChanged:]
+___38-[PWReachability reachabilityChanged:]_block_invoke
+-[PWReachability reachableBlock]
+-[PWReachability setReachableBlock:]
+-[PWReachability unreachableBlock]
+-[PWReachability setUnreachableBlock:]
+-[PWReachability reachableOnWWAN]
+-[PWReachability setReachableOnWWAN:]
+-[PWReachability reachabilityRef]
+-[PWReachability setReachabilityRef:]
+-[PWReachability reachabilitySerialQueue]
+-[PWReachability setReachabilitySerialQueue:]
+-[PWReachability reachabilityObject]
+-[PWReachability setReachabilityObject:]
+-[PWReachability .cxx_destruct]
+_OBJC_IVAR_$_PWReachability._reachableBlock
+_OBJC_IVAR_$_PWReachability._unreachableBlock
+_OBJC_IVAR_$_PWReachability._reachableOnWWAN
+_OBJC_IVAR_$_PWReachability._reachabilityRef
+_OBJC_IVAR_$_PWReachability._reachabilitySerialQueue
+_OBJC_IVAR_$_PWReachability._reachabilityObject
++[PWNetworkModule module]
+___25+[PWNetworkModule module]_block_invoke
+-[PWNetworkModule init]
+-[PWNetworkModule inject:]
+-[PWNetworkModule requestManager]
+-[PWNetworkModule setRequestManager:]
+-[PWNetworkModule .cxx_destruct]
+_module.instance
+_module.pred
+_OBJC_IVAR_$_PWNetworkModule._requestManager
+-[PWPushManagerJSBridge initWithWebView:]
++[PWPushManagerJSBridge isKeyExcludedFromWebScript:]
++[PWPushManagerJSBridge isSelectorExcludedFromWebScript:]
++[PWPushManagerJSBridge webScriptNameForSelector:]
+-[PWPushManagerJSBridge postEvent:]
+___35-[PWPushManagerJSBridge postEvent:]_block_invoke
+-[PWPushManagerJSBridge sendTags:]
+-[PWPushManagerJSBridge log:]
+-[PWPushManagerJSBridge closeInApp]
+-[PWPushManagerJSBridge delegate]
+-[PWPushManagerJSBridge setDelegate:]
+-[PWPushManagerJSBridge webView]
+-[PWPushManagerJSBridge setWebView:]
+-[PWPushManagerJSBridge .cxx_destruct]
+_OBJC_IVAR_$_PWPushManagerJSBridge._delegate
+_OBJC_IVAR_$_PWPushManagerJSBridge._webView
+-[PWInAppMessagesManager init]
+-[PWInAppMessagesManager addJavascriptInterface:withName:]
+-[PWInAppMessagesManager postEvent:withAttributes:completion:]
+___62-[PWInAppMessagesManager postEvent:withAttributes:completion:]_block_invoke
+___62-[PWInAppMessagesManager postEvent:withAttributes:completion:]_block_invoke_2
+___copy_helper_block_.23
+___destroy_helper_block_.24
+-[PWInAppMessagesManager postEventInternal:withAttributes:completion:]
+___70-[PWInAppMessagesManager postEventInternal:withAttributes:completion:]_block_invoke
+___copy_helper_block_.73
+___destroy_helper_block_.74
+-[PWInAppMessagesManager setUserId:]
+-[PWInAppMessagesManager mergeUserId:to:doMerge:completion:]
+___60-[PWInAppMessagesManager mergeUserId:to:doMerge:completion:]_block_invoke
+___copy_helper_block_.100
+___destroy_helper_block_.101
+-[PWInAppMessagesManager presentRichMedia:]
+___43-[PWInAppMessagesManager presentRichMedia:]_block_invoke
+___copy_helper_block_.148
+___destroy_helper_block_.149
+-[PWInAppMessagesManager convertTags:]
+-[PWInAppMessagesManager requestManager]
+-[PWInAppMessagesManager setRequestManager:]
+-[PWInAppMessagesManager .cxx_destruct]
+___block_descriptor_tmp.26
+_OBJC_IVAR_$_PWInAppMessagesManager._requestManager
+___block_descriptor_tmp.76
+___block_descriptor_tmp.102
+___block_descriptor_tmp.150
+-[UIApplication(Pushwoosh) pw_checkURL:]
+-[UIApplication(Pushwoosh) pw_swizzleOpenURLMethods:]
+-[UIApplication(Pushwoosh) pw_setDelegate:]
+-[UIApplication(Pushwoosh) pw_setApplicationIconBadgeNumber:]
+-[UIApplication(Pushwoosh) pw_registerForRemoteNotifications]
++[UIApplication(Pushwoosh) load]
++[PWPushRuntime swizzleNotificationSettingsHandler]
+___51+[PWPushRuntime swizzleNotificationSettingsHandler]_block_invoke
++[PWPushRuntime isSelfTestEnabled]
+_pw_setDelegate:.delegateClass
+_swizzleNotificationSettingsHandler.onceToken
+-[PWNotificationCategoryBuilder init]
+-[PWNotificationCategoryBuilder pushCategory]
+-[PWNotificationCategoryBuilder setCategoryIdentifier:]
+-[PWNotificationCategoryBuilder pushAction]
+-[PWNotificationCategoryBuilder setActionIdentifier:]
+-[PWNotificationCategoryBuilder setActionTitle:]
+-[PWNotificationCategoryBuilder setActionDestructive:]
+-[PWNotificationCategoryBuilder setActionStartApplication:]
+-[PWNotificationCategoryBuilder setActionAuthRequired:]
+-[PWNotificationCategoryBuilder setActionTextInputWithTitle:placeholder:]
+-[PWNotificationCategoryBuilder addCurrentCategoriesWithCompletion:]
+-[PWNotificationCategoryBuilder build]
+-[PWNotificationCategoryBuilder dealloc]
+-[PWNotificationCategoryBuilder result]
+-[PWNotificationCategoryBuilder setResult:]
+-[PWNotificationCategoryBuilder .cxx_destruct]
+-[PWNotificationCategoryBuilderiOS8 init]
+-[PWNotificationCategoryBuilderiOS8 pushCategory]
+-[PWNotificationCategoryBuilderiOS8 setCategoryIdentifier:]
+-[PWNotificationCategoryBuilderiOS8 pushAction]
+-[PWNotificationCategoryBuilderiOS8 setActionIdentifier:]
+-[PWNotificationCategoryBuilderiOS8 setActionTitle:]
+-[PWNotificationCategoryBuilderiOS8 setActionDestructive:]
+-[PWNotificationCategoryBuilderiOS8 setActionStartApplication:]
+-[PWNotificationCategoryBuilderiOS8 setActionAuthRequired:]
+-[PWNotificationCategoryBuilderiOS8 prepare]
+-[PWNotificationCategoryBuilderiOS8 addCurrentCategoriesWithCompletion:]
+-[PWNotificationCategoryBuilderiOS8 build]
+-[PWNotificationCategoryBuilderiOS8 currentAction]
+-[PWNotificationCategoryBuilderiOS8 setCurrentAction:]
+-[PWNotificationCategoryBuilderiOS8 currentCategory]
+-[PWNotificationCategoryBuilderiOS8 setCurrentCategory:]
+-[PWNotificationCategoryBuilderiOS8 actions]
+-[PWNotificationCategoryBuilderiOS8 setActions:]
+-[PWNotificationCategoryBuilderiOS8 categoriesId]
+-[PWNotificationCategoryBuilderiOS8 setCategoriesId:]
+-[PWNotificationCategoryBuilderiOS8 .cxx_destruct]
+-[PWNotificationCategoryBuilderiOS9 setActionTextInputWithTitle:placeholder:]
+-[PWNotificationCategoryBuilderiOS10 init]
+-[PWNotificationCategoryBuilderiOS10 pushCategory]
+-[PWNotificationCategoryBuilderiOS10 setCategoryIdentifier:]
+-[PWNotificationCategoryBuilderiOS10 pushAction]
+-[PWNotificationCategoryBuilderiOS10 setActionIdentifier:]
+-[PWNotificationCategoryBuilderiOS10 setActionTitle:]
+-[PWNotificationCategoryBuilderiOS10 setActionDestructive:]
+-[PWNotificationCategoryBuilderiOS10 setActionStartApplication:]
+-[PWNotificationCategoryBuilderiOS10 setActionAuthRequired:]
+-[PWNotificationCategoryBuilderiOS10 setActionTextInputWithTitle:placeholder:]
+-[PWNotificationCategoryBuilderiOS10 addCurrentCategoriesWithCompletion:]
+___73-[PWNotificationCategoryBuilderiOS10 addCurrentCategoriesWithCompletion:]_block_invoke
+-[PWNotificationCategoryBuilderiOS10 build]
+-[PWNotificationCategoryBuilderiOS10 prepare]
++[PWNotificationCategoryBuilderiOS10 localizedString:withDefault:]
+-[PWNotificationCategoryBuilderiOS10 categoryId]
+-[PWNotificationCategoryBuilderiOS10 setCategoryId:]
+-[PWNotificationCategoryBuilderiOS10 categoryActions]
+-[PWNotificationCategoryBuilderiOS10 setCategoryActions:]
+-[PWNotificationCategoryBuilderiOS10 actionId]
+-[PWNotificationCategoryBuilderiOS10 setActionId:]
+-[PWNotificationCategoryBuilderiOS10 actionTitle]
+-[PWNotificationCategoryBuilderiOS10 actionDestruct]
+-[PWNotificationCategoryBuilderiOS10 setActionDestruct:]
+-[PWNotificationCategoryBuilderiOS10 actionStartsApplication]
+-[PWNotificationCategoryBuilderiOS10 setActionStartsApplication:]
+-[PWNotificationCategoryBuilderiOS10 actionAuth]
+-[PWNotificationCategoryBuilderiOS10 setActionAuth:]
+-[PWNotificationCategoryBuilderiOS10 actionTextInputTitle]
+-[PWNotificationCategoryBuilderiOS10 setActionTextInputTitle:]
+-[PWNotificationCategoryBuilderiOS10 actionTextInputPlaceHolder]
+-[PWNotificationCategoryBuilderiOS10 setActionTextInputPlaceHolder:]
+-[PWNotificationCategoryBuilderiOS10 categoriesId]
+-[PWNotificationCategoryBuilderiOS10 setCategoriesId:]
+-[PWNotificationCategoryBuilderiOS10 .cxx_destruct]
+_OBJC_IVAR_$_PWNotificationCategoryBuilder._result
+_OBJC_IVAR_$_PWNotificationCategoryBuilderiOS8._categoriesId
+_OBJC_IVAR_$_PWNotificationCategoryBuilderiOS8._currentCategory
+_OBJC_IVAR_$_PWNotificationCategoryBuilderiOS8._currentAction
+_OBJC_IVAR_$_PWNotificationCategoryBuilderiOS8._actions
+_OBJC_IVAR_$_PWNotificationCategoryBuilderiOS10._categoriesId
+_OBJC_IVAR_$_PWNotificationCategoryBuilderiOS10._categoryActions
+_OBJC_IVAR_$_PWNotificationCategoryBuilderiOS10._categoryId
+_OBJC_IVAR_$_PWNotificationCategoryBuilderiOS10._actionId
+_OBJC_IVAR_$_PWNotificationCategoryBuilderiOS10._actionDestruct
+_OBJC_IVAR_$_PWNotificationCategoryBuilderiOS10._actionStartsApplication
+_OBJC_IVAR_$_PWNotificationCategoryBuilderiOS10._actionAuth
+_OBJC_IVAR_$_PWNotificationCategoryBuilderiOS10._actionTextInputTitle
+_OBJC_IVAR_$_PWNotificationCategoryBuilderiOS10._actionTitle
+_OBJC_IVAR_$_PWNotificationCategoryBuilderiOS10._actionTextInputPlaceHolder
+-[NSDictionary(PWDictUtils) pw_objectForKey:ofTypes:]
+-[NSDictionary(PWDictUtils) pw_objectForKey:ofType:]
+-[NSDictionary(PWDictUtils) pw_stringForKey:]
+-[NSDictionary(PWDictUtils) pw_dictionaryForKey:]
+-[NSDictionary(PWDictUtils) pw_arrayForKey:]
+-[NSDictionary(PWDictUtils) pw_doubleForKey:]
+-[NSDictionary(PWDictUtils) pw_numberForKey:]
+-[PWPushwooshJSBridge initWithClient:]
+-[PWPushwooshJSBridge postEvent::::]
+___36-[PWPushwooshJSBridge postEvent::::]_block_invoke
+-[PWPushwooshJSBridge sendTags:]
+-[PWPushwooshJSBridge getTags::]
+___32-[PWPushwooshJSBridge getTags::]_block_invoke
+___copy_helper_block_.33
+___destroy_helper_block_.34
+___32-[PWPushwooshJSBridge getTags::]_block_invoke.37
+___copy_helper_block_.38
+___destroy_helper_block_.39
+-[PWPushwooshJSBridge log:]
+-[PWPushwooshJSBridge closeInApp]
+-[PWPushwooshJSBridge webClient]
+-[PWPushwooshJSBridge setWebClient:]
+-[PWPushwooshJSBridge .cxx_destruct]
+___block_descriptor_tmp.36
+___block_descriptor_tmp.40
+_OBJC_IVAR_$_PWPushwooshJSBridge._webClient
+-[PWPlatformModule init]
++[PWPlatformModule module]
+___26+[PWPlatformModule module]_block_invoke
+-[PWPlatformModule inject:]
+-[PWPlatformModule createCategoryBuilder]
+-[PWPlatformModule notificationManagerCompat]
+-[PWPlatformModule setNotificationManagerCompat:]
+-[PWPlatformModule NotificationCategoryBuilder]
+-[PWPlatformModule setNotificationCategoryBuilder:]
+-[PWPlatformModule .cxx_destruct]
+_OBJC_IVAR_$_PWPlatformModule._notificationManagerCompat
+_OBJC_IVAR_$_PWPlatformModule._NotificationCategoryBuilder
+-[PWMergeUserRequest methodName]
+-[PWMergeUserRequest requestDictionary]
+-[PWMergeUserRequest srcUserId]
+-[PWMergeUserRequest setSrcUserId:]
+-[PWMergeUserRequest dstUserId]
+-[PWMergeUserRequest setDstUserId:]
+-[PWMergeUserRequest doMerge]
+-[PWMergeUserRequest setDoMerge:]
+-[PWMergeUserRequest .cxx_destruct]
+_OBJC_IVAR_$_PWMergeUserRequest.srcUserId
+_OBJC_IVAR_$_PWMergeUserRequest.dstUserId
+_OBJC_IVAR_$_PWMergeUserRequest.doMerge
+-[PWSendPurchaseRequest methodName]
+-[PWSendPurchaseRequest requestDictionary]
+-[PWSendPurchaseRequest productIdentifier]
+-[PWSendPurchaseRequest setProductIdentifier:]
+-[PWSendPurchaseRequest quantity]
+-[PWSendPurchaseRequest setQuantity:]
+-[PWSendPurchaseRequest transactionDate]
+-[PWSendPurchaseRequest setTransactionDate:]
+-[PWSendPurchaseRequest price]
+-[PWSendPurchaseRequest setPrice:]
+-[PWSendPurchaseRequest currencyCode]
+-[PWSendPurchaseRequest setCurrencyCode:]
+-[PWSendPurchaseRequest .cxx_destruct]
+_OBJC_IVAR_$_PWSendPurchaseRequest._productIdentifier
+_OBJC_IVAR_$_PWSendPurchaseRequest._quantity
+_OBJC_IVAR_$_PWSendPurchaseRequest._transactionDate
+_OBJC_IVAR_$_PWSendPurchaseRequest._price
+_OBJC_IVAR_$_PWSendPurchaseRequest._currencyCode
+-[PWRegisterUserRequest methodName]
+-[PWRegisterUserRequest requestDictionary]
+-[PWNotificationManagerCompat registerUserNotifications:]
+-[PWNotificationManagerCompat registerForPushNotifications]
+-[PWNotificationManagerCompat unregisterForPushNotifications]
+-[PWNotificationManagerCompat getRemoteNotificationStatusWithCompletion:]
+-[PWNotificationManagerCompat startPushInfoFromInfoDictionary:]
+-[PWNotificationManagerCompat clearLocalNotifications]
+-[PWNotificationManagerCompat didRegisterUserNotificationSettings:]
+-[PWNotificationManagerCompatiOS3 getPushNotificationMode]
+-[PWNotificationManagerCompatiOS3 registerForPushNotifications]
+-[PWNotificationManagerCompatiOS3 unregisterForPushNotifications]
+-[PWNotificationManagerCompatiOS3 startPushInfoFromInfoDictionary:]
+-[PWNotificationManagerCompatiOS3 getRemoteNotificationStatusWithCompletion:]
+-[PWNotificationManagerCompatiOS3 clearLocalNotifications]
+-[PWNotificationManagerCompatiOS8 init]
+-[PWNotificationManagerCompatiOS8 registerUserNotifications:]
+-[PWNotificationManagerCompatiOS8 registerUserNotificationSettings:]
+___68-[PWNotificationManagerCompatiOS8 registerUserNotificationSettings:]_block_invoke
+___68-[PWNotificationManagerCompatiOS8 registerUserNotificationSettings:]_block_invoke_2
+___copy_helper_block_.92
+___destroy_helper_block_.93
+-[PWNotificationManagerCompatiOS8 didRegisterUserNotificationSettings:]
+-[PWNotificationManagerCompatiOS8 registerForPushNotifications]
+-[PWNotificationManagerCompatiOS8 getRemoteNotificationStatusWithCompletion:]
+-[PWNotificationManagerCompatiOS8 savedRegisterUserNotificationSettings]
+-[PWNotificationManagerCompatiOS8 setSavedRegisterUserNotificationSettings:]
+-[PWNotificationManagerCompatiOS8 notificationDialogHasBeenDismissed]
+-[PWNotificationManagerCompatiOS8 setNotificationDialogHasBeenDismissed:]
+-[PWNotificationManagerCompatiOS8 notificationSettingsNeverRegistered]
+-[PWNotificationManagerCompatiOS8 setNotificationSettingsNeverRegistered:]
+-[PWNotificationManagerCompatiOS8 .cxx_destruct]
+-[PWNotificationManagerCompatiOS10 registerUserNotifications:]
+___62-[PWNotificationManagerCompatiOS10 registerUserNotifications:]_block_invoke
+___62-[PWNotificationManagerCompatiOS10 registerUserNotifications:]_block_invoke_2
+-[PWNotificationManagerCompatiOS10 getRemoteNotificationStatusWithCompletion:]
+___78-[PWNotificationManagerCompatiOS10 getRemoteNotificationStatusWithCompletion:]_block_invoke
+___copy_helper_block_.144
+___destroy_helper_block_.145
+-[PWNotificationManagerCompatiOS10 clearLocalNotifications]
+-[PWNotificationManagerCompatiOS10 didRegisterUserNotificationSettings:]
+___block_descriptor_tmp.94
+_OBJC_IVAR_$_PWNotificationManagerCompatiOS8._savedRegisterUserNotificationSettings
+_OBJC_IVAR_$_PWNotificationManagerCompatiOS8._notificationDialogHasBeenDismissed
+_OBJC_IVAR_$_PWNotificationManagerCompatiOS8._notificationSettingsNeverRegistered
+___block_descriptor_tmp.136
+___block_descriptor_tmp.140
+___block_literal_global.141
+___block_descriptor_tmp.146
+-[PWConfig init]
++[PWConfig config]
+___18+[PWConfig config]_block_invoke
+-[PWConfig getBoolean:default:]
+-[PWConfig appId]
+-[PWConfig setAppId:]
+-[PWConfig appIdDev]
+-[PWConfig setAppIdDev:]
+-[PWConfig appName]
+-[PWConfig setAppName:]
+-[PWConfig showAlert]
+-[PWConfig setShowAlert:]
+-[PWConfig alertStyle]
+-[PWConfig setAlertStyle:]
+-[PWConfig requestUrl]
+-[PWConfig setRequestUrl:]
+-[PWConfig selfTestEnabled]
+-[PWConfig setSelfTestEnabled:]
+-[PWConfig useRuntime]
+-[PWConfig setUseRuntime:]
+-[PWConfig logLevel]
+-[PWConfig setLogLevel:]
+-[PWConfig .cxx_destruct]
+_config.instance
+_config.pred
+_OBJC_IVAR_$_PWConfig._appId
+_OBJC_IVAR_$_PWConfig._appIdDev
+_OBJC_IVAR_$_PWConfig._appName
+_OBJC_IVAR_$_PWConfig._showAlert
+_OBJC_IVAR_$_PWConfig._alertStyle
+_OBJC_IVAR_$_PWConfig._requestUrl
+_OBJC_IVAR_$_PWConfig._selfTestEnabled
+_OBJC_IVAR_$_PWConfig._useRuntime
+_OBJC_IVAR_$_PWConfig._logLevel
+-[PWZipArchive init]
+-[PWZipArchive dealloc]
+___clang_call_terminate
+-[PWZipArchive createZipFile2:]
+-[PWZipArchive createZipFile2:password:]
+-[PWZipArchive addFileToZip:newname:]
+-[PWZipArchive closeZipFile2]
+-[PWZipArchive unzipOpenFile:]
+-[PWZipArchive unzipOpenFile:password:]
+-[PWZipArchive unzipFileTo:overWrite:]
+-[PWZipArchive unzipCloseFile]
+-[PWZipArchive outputErrorMessage:]
+-[PWZipArchive OverWrite:]
+-[PWZipArchive delegate]
+-[PWZipArchive setDelegate:]
+-[PWZipArchive .cxx_destruct]
+_OBJC_IVAR_$_PWZipArchive._zipFile
+_OBJC_IVAR_$_PWZipArchive._password
+_OBJC_IVAR_$_PWZipArchive._unzFile
+_OBJC_IVAR_$_PWZipArchive._delegate
+-[PWButtonExt pointInside:withEvent:]
+-[PWButtonExt hitTestEdgeInsets]
+-[PWButtonExt setHitTestEdgeInsets:]
+_OBJC_IVAR_$_PWButtonExt._hitTestEdgeInsets
++[PWUtilsCommon showAlertWithTitle:message:]
++[PWUtilsCommon systemVersion]
++[PWUtilsCommon getAPSProductionStatus:]
++[PWUtilsCommon deviceName]
++[PWUtilsCommon machineName]
++[PWUtilsCommon appVersion]
++[PWUtilsCommon preferredLanguage]
++[PWUtilsCommon timezone]
++[PWUtilsCommon generateIdentifier]
++[PWUtilsCommon uniqueGlobalDeviceIdentifier]
++[PWUtilsCommon pushwooshError:]
++[PWUtilsCommon isShortenedUrl:]
++[PWUtilsCommon applicationOpenURL:]
++[PWUtilsCommon openUrl:]
+___25+[PWUtilsCommon openUrl:]_block_invoke
++[PWUtilsCommon connection:willSendRequest:redirectResponse:]
+___61+[PWUtilsCommon connection:willSendRequest:redirectResponse:]_block_invoke
+___copy_helper_block_.88
+___destroy_helper_block_.89
++[PWUtilsCommon connection:didFailWithError:]
+___45+[PWUtilsCommon connection:didFailWithError:]_block_invoke
+___copy_helper_block_.98
+___destroy_helper_block_.99
++[PWUtilsCommon swizzle:fromSelector:toSelector:implementation:typeEncoding:]
+___block_descriptor_tmp.91
+___block_descriptor_tmp.101
+-[PWRichMediaConfig initWithContentsOfFile:]
+-[PWRichMediaConfig localizedStrings]
+-[PWRichMediaConfig setLocalizedStrings:]
+-[PWRichMediaConfig iosCloseButton]
+-[PWRichMediaConfig setIosCloseButton:]
+-[PWRichMediaConfig .cxx_destruct]
+_OBJC_IVAR_$_PWRichMediaConfig._localizedStrings
+_OBJC_IVAR_$_PWRichMediaConfig._iosCloseButton
+__ZN9pushwooshL16ziplocal_getLongEPKNS_19zlib_filefunc_def_sEPvPm
+__ZN9pushwooshL17ziplocal_getShortEPKNS_19zlib_filefunc_def_sEPvPm
+__ZN9pushwooshL21add_data_in_datablockEPNS_17linkedlist_data_sEPKvm
+__ZN9pushwooshL17ziplocal_putValueEPKNS_19zlib_filefunc_def_sEPvmi
+__ZN9pushwooshL16ziplocal_getByteEPKNS_19zlib_filefunc_def_sEPvPi
++[PWUtils deviceName]
++[PWUtils systemVersion]
++[PWUtils applicationOpenURL:]
++[PWUtils getAPSProductionStatus:]
++[PWUtils webViewCloseButton]
++[PWUtils generateIdentifier]
++[PWUtils idfa]
++[PWUtils isValidHwid:]
++[PWUtils isValidUserId:]
++[PWUtils isJailBroken]
++[PWUtils connectionType]
++[PWUtils freeDiskSpace]
++[PWUtils totalDiskSpace]
++[PWUtils batteryLevel]
++[PWUtils carrierName]
++[PWUtils screenSizeString]
++[PWUtils showAlertWithTitle:message:]
++[PWUtils isSimulator]
+-[PWNotificationAlertView alertView:didDismissWithButtonIndex:]
+-[PWNotificationAlertView show]
+-[PWNotificationAlertView alertBackingNotification]
+-[PWNotificationAlertView setAlertBackingNotification:]
+-[PWNotificationAlertView .cxx_destruct]
++[PWNotificationCenter defaultCenter]
+___37+[PWNotificationCenter defaultCenter]_block_invoke
+-[PWNotificationCenter init]
+___28-[PWNotificationCenter init]_block_invoke
+-[PWNotificationCenter dealloc]
+-[PWNotificationCenter notificationsBannerStyle]
+-[PWNotificationCenter setNotificationsBannerStyle:]
+-[PWNotificationCenter _handleBannerCanChange]
++[PWNotificationCenter imageWithColor:]
+-[PWNotificationCenter registerApplicationWithIdentifier:name:icon:defaultSettings:]
+-[PWNotificationCenter clearPendingNotificationForApplictionIdentifier:]
+-[PWNotificationCenter clearAllPendingNotifications]
+-[PWNotificationCenter presentNotification:forApplicationIdentifier:]
+-[PWNotificationCenter presentNotification:forApplicationIdentifier:userInfo:]
+___78-[PWNotificationCenter presentNotification:forApplicationIdentifier:userInfo:]_block_invoke
+-[PWNotificationCenter _handlePendingNotifications]
+___51-[PWNotificationCenter _handlePendingNotifications]_block_invoke
+___copy_helper_block_.209
+___destroy_helper_block_.210
+-[PWNotificationCenter _handleSoundForAppId:fileName:]
+-[PWNotificationCenter _applicationsMapping]
+-[PWNotificationCenter _notificationSettings]
+-[PWNotificationCenter setSettings:enabled:forAppIdentifier:]
+-[PWNotificationCenter _setSettingsDictionary:forAppIdentifier:]
+-[PWNotificationCenter audioPlayerDidFinishPlaying:successfully:]
+-[PWNotificationCenter .cxx_destruct]
+_OBJC_IVAR_$_PWNotificationAlertView._alertBackingNotification
+l_OBJC_PROTOCOL_$_UIAlertViewDelegate
+l_OBJC_LABEL_PROTOCOL_$_UIAlertViewDelegate
+_defaultCenter.onceToken
+___ln_defaultNotificationCenter
+_OBJC_IVAR_$_PWNotificationCenter._applicationMapping
+_OBJC_IVAR_$_PWNotificationCenter._pendingNotifications
+_OBJC_IVAR_$_PWNotificationCenter._notificationSettings
+___block_descriptor_tmp.112
+___block_literal_global.113
+_OBJC_IVAR_$_PWNotificationCenter._orientationHandler
+_OBJC_IVAR_$_PWNotificationCenter._bannerStyle
+_OBJC_IVAR_$_PWNotificationCenter._wantsBannerStyleChange
+_OBJC_IVAR_$_PWNotificationCenter._currentlyAnimating
+_OBJC_IVAR_$_PWNotificationCenter._notificationWindow
+___block_descriptor_tmp.193
+___block_descriptor_tmp.211
+_OBJC_IVAR_$_PWNotificationCenter._currentAudioPlayer
+l_OBJC_PROTOCOL_$_AVAudioPlayerDelegate
+l_OBJC_LABEL_PROTOCOL_$_AVAudioPlayerDelegate
+-[PWLocationTracker logDebug:]
+-[PWLocationTracker init]
+-[PWLocationTracker canUseGPS]
+-[PWLocationTracker canUseGPSInBackground]
+-[PWLocationTracker applicationDidBecomeActive]
+-[PWLocationTracker applicationDidEnterBackground]
+-[PWLocationTracker setNearestGeozones:]
+-[PWLocationTracker setEnabled:]
+-[PWLocationTracker stopUpdatingLocation]
+-[PWLocationTracker locationManager:didChangeAuthorizationStatus:]
+-[PWLocationTracker updateLocationTrackingMode]
+-[PWLocationTracker startPreciseGeoTracking]
+-[PWLocationTracker isGeofencingAvailable]
+-[PWLocationTracker startApproximateGeoTracking]
+-[PWLocationTracker setupRegionsForMonitoring]
+-[PWLocationTracker setupUserPositioningRegion:]
+-[PWLocationTracker startMonitoringRegionWithCenter:radius:identifier:]
+-[PWLocationTracker startSignificantMonitoring]
+-[PWLocationTracker stopRegionMonitoring]
+-[PWLocationTracker reportLocation:withMessage:]
+-[PWLocationTracker shouldHandleRegion:]
+-[PWLocationTracker locationManager:didVisit:]
+-[PWLocationTracker locationManager:didStartMonitoringForRegion:]
+-[PWLocationTracker locationManager:monitoringDidFailForRegion:withError:]
+-[PWLocationTracker sendLocation:]
+___34-[PWLocationTracker sendLocation:]_block_invoke
+-[PWLocationTracker locationManager:didEnterRegion:]
+-[PWLocationTracker locationManager:didExitRegion:]
+-[PWLocationTracker locationManager:didUpdateLocations:]
+-[PWLocationTracker dealloc]
+-[PWLocationTracker sendLocationBlock]
+-[PWLocationTracker setSendLocationBlock:]
+-[PWLocationTracker backgroundMode]
+-[PWLocationTracker setBackgroundMode:]
+-[PWLocationTracker nearestGeozones]
+-[PWLocationTracker .cxx_destruct]
+_OBJC_IVAR_$_PWLocationTracker.trackingMode
+_OBJC_IVAR_$_PWLocationTracker.trackingState
+_OBJC_IVAR_$_PWLocationTracker.regionIdToNameMap
+_OBJC_IVAR_$_PWLocationTracker._nearestGeozones
+_OBJC_IVAR_$_PWLocationTracker.regionSetUpTaskId
+_OBJC_IVAR_$_PWLocationTracker._registeredRegionsCount
+_OBJC_IVAR_$_PWLocationTracker._totalRegionsCount
+_OBJC_IVAR_$_PWLocationTracker._sendLocationBlock
+_OBJC_IVAR_$_PWLocationTracker._previousLocation
+_OBJC_IVAR_$_PWLocationTracker._backgroundMode
++[PWInteractivePush savePushwooshCategories:]
++[PWInteractivePush getCategoriesWithCompletion:]
+___49+[PWInteractivePush getCategoriesWithCompletion:]_block_invoke
++[PWInteractivePush addActions:withBuilder:]
++[PWInteractivePush arrayToCategories:]
++[PWGeozone geozoneWithCenter:radius:distance:name:]
+-[PWGeozone center]
+-[PWGeozone setCenter:]
+-[PWGeozone radius]
+-[PWGeozone setRadius:]
+-[PWGeozone distance]
+-[PWGeozone setDistance:]
+-[PWGeozone pwdist]
+-[PWGeozone setPwdist:]
+-[PWGeozone name]
+-[PWGeozone setName:]
+-[PWGeozone .cxx_destruct]
+_OBJC_IVAR_$_PWGeozone._center
+_OBJC_IVAR_$_PWGeozone._radius
+_OBJC_IVAR_$_PWGeozone._distance
+_OBJC_IVAR_$_PWGeozone._pwdist
+_OBJC_IVAR_$_PWGeozone._name
+-[PWSetTagsRequest methodName]
+-[PWSetTagsRequest requestDictionary]
+-[PWSetTagsRequest tags]
+-[PWSetTagsRequest setTags:]
+-[PWSetTagsRequest .cxx_destruct]
+_OBJC_IVAR_$_PWSetTagsRequest.tags
+-[PWDataManagerCommon init]
+-[PWDataManagerCommon setTags:]
+-[PWDataManagerCommon setTags:withCompletion:]
+___46-[PWDataManagerCommon setTags:withCompletion:]_block_invoke
+-[PWDataManagerCommon loadTags]
+-[PWDataManagerCommon loadTags:error:]
+___38-[PWDataManagerCommon loadTags:error:]_block_invoke
+___copy_helper_block_.53
+___destroy_helper_block_.54
+-[PWDataManagerCommon sendBadges:]
+___34-[PWDataManagerCommon sendBadges:]_block_invoke
+-[PWDataManagerCommon sendAppOpen]
+___34-[PWDataManagerCommon sendAppOpen]_block_invoke
+-[PWDataManagerCommon sendStats:]
+___33-[PWDataManagerCommon sendStats:]_block_invoke
+-[PWDataManagerCommon requestManager]
+-[PWDataManagerCommon setRequestManager:]
+-[PWDataManagerCommon .cxx_destruct]
+_OBJC_IVAR_$_PWDataManagerCommon._requestManager
+___block_descriptor_tmp.55
+___block_descriptor_tmp.65
+___block_descriptor_tmp.71
+___block_literal_global.72
+___block_descriptor_tmp.80
+___block_literal_global.81
+-[PWDataManager init]
+___21-[PWDataManager init]_block_invoke
+-[PWDataManager sendAttributes]
+___31-[PWDataManager sendAttributes]_block_invoke
+___block_descriptor_tmp.28
+-[PWPreferences init]
++[PWPreferences preferences]
+___28+[PWPreferences preferences]_block_invoke
+-[PWPreferences setAppCode:]
+-[PWPreferences appCode]
+-[PWPreferences setAppName:]
+-[PWPreferences appName]
+-[PWPreferences setPushToken:]
+-[PWPreferences pushToken]
+-[PWPreferences setLastRegTime:]
+-[PWPreferences lastRegTime]
+-[PWPreferences setUserId:]
+-[PWPreferences userId]
+-[PWPreferences setCategories:]
+-[PWPreferences categories]
+-[PWPreferences setLocationTrackingEnabled:]
+-[PWPreferences locationTrackingEnabled]
+-[PWPreferences baseUrl]
+-[PWPreferences setBaseUrl:]
+-[PWPreferences lastSendAttributesDate]
+-[PWPreferences setLastSendAttributesDate:]
+-[PWPreferences lastRegisterUserDate]
+-[PWPreferences setLastRegisterUserDate:]
+-[PWPreferences logLevel]
+-[PWPreferences setLogLevel:]
+-[PWPreferences hwid]
+-[PWPreferences hasAppCode]
++[PWPreferences readAppId]
++[PWPreferences readAppName]
++[PWPreferences readBaseUrl]
++[PWPreferences defaultBaseUrl]
++[PWPreferences checkAppCodeforChanges:]
++[PWPreferences readLogLevel]
++[PWPreferences verifyObject:]
+-[PWPreferences lock]
+-[PWPreferences setLock:]
+-[PWPreferences .cxx_destruct]
+_OBJC_IVAR_$_PWPreferences._lock
+_OBJC_IVAR_$_PWPreferences._hwid
+_OBJC_IVAR_$_PWPreferences._appCode
+_OBJC_IVAR_$_PWPreferences._appName
+_OBJC_IVAR_$_PWPreferences._pushToken
+_OBJC_IVAR_$_PWPreferences._userId
+_OBJC_IVAR_$_PWPreferences._lastRegTime
+_OBJC_IVAR_$_PWPreferences._lastSendAttributesDate
+_OBJC_IVAR_$_PWPreferences._lastRegisterUserDate
+_OBJC_IVAR_$_PWPreferences._locationTrackingEnabled
+_OBJC_IVAR_$_PWPreferences._categories
+_OBJC_IVAR_$_PWPreferences._baseUrl
+_OBJC_IVAR_$_PWPreferences._logLevel
+_preferences.instance
+_preferences.pred
+-[PWCache init]
++[PWCache cache]
+___16+[PWCache cache]_block_invoke
+-[PWCache setTags:]
+-[PWCache addTags:]
+-[PWCache getTags]
++[PWCache mergeTags:to:]
+-[PWCache clear]
+-[PWCache tagsCacheFile]
+-[PWCache setTagsCacheFile:]
+-[PWCache .cxx_destruct]
+_cache.instance
+_cache.pred
+_OBJC_IVAR_$_PWCache._tagsCacheFile
+-[PWInAppStorage init]
++[PWInAppStorage storage]
+___25+[PWInAppStorage storage]_block_invoke
+-[PWInAppStorage resourceForCode:]
+-[PWInAppStorage resourceForDictionary:]
+-[PWInAppStorage synchronize]
+___29-[PWInAppStorage synchronize]_block_invoke
+-[PWInAppStorage updateLocalResources:]
++[PWInAppStorage destroy]
+-[PWInAppStorage resources]
+-[PWInAppStorage setResources:]
+-[PWInAppStorage isUpdating]
+-[PWInAppStorage setIsUpdating:]
+-[PWInAppStorage requestManager]
+-[PWInAppStorage setRequestManager:]
+-[PWInAppStorage .cxx_destruct]
+_OBJC_IVAR_$_PWInAppStorage._resources
+_inAppStorageInstance
+_inAppStorageOncePred
+_OBJC_IVAR_$_PWInAppStorage._requestManager
+___block_descriptor_tmp.58
+_OBJC_IVAR_$_PWInAppStorage._isUpdating
++[PWNotificationAppSettings defaultSettings]
+___44+[PWNotificationAppSettings defaultSettings]_block_invoke
+-[PWNotificationAppSettings alertStyle]
+-[PWNotificationAppSettings setAlertStyle:]
+-[PWNotificationAppSettings soundEnabled]
+-[PWNotificationAppSettings setSoundEnabled:]
+_defaultSettings.instance
+_defaultSettings.onceToken
+_OBJC_IVAR_$_PWNotificationAppSettings._alertStyle
+_OBJC_IVAR_$_PWNotificationAppSettings._soundEnabled
++[PWTags incrementalTagWithInteger:]
++[PushNotificationManager pushManager]
+___38+[PushNotificationManager pushManager]_block_invoke
+-[PushNotificationManager dealloc]
+-[PushNotificationManager initWithApplicationCode:navController:appName:]
+-[PushNotificationManager initWithApplicationCode:appName:]
++[PushNotificationManager initializeWithAppCode:appName:]
+-[PushNotificationManager registerForPushNotifications]
+-[PushNotificationManager getCustomPushDataAsNSDict:]
+-[PushNotificationManager handlePushRegistrationFailure:]
++[PushNotificationManager clearNotificationCenter]
+-[PushNotificationManager getCustomPushData:]
++[PushNotificationManager getRemoteNotificationStatus]
+-[PushNotificationManager handlePushRegistrationString:]
+-[PushNotificationManager getApnPayload:]
+-[PushNotificationManager handlePushReceived:]
+-[PushNotificationManager handlePushRegistration:]
+-[PushNotificationManager unregisterForPushNotifications]
+-[PushNotificationManager getHWID]
+-[PushNotificationManager appCode]
+-[PushNotificationManager appName]
+-[PushNotificationManager getPushToken]
+-[PushNotificationManager sendLocation:]
+-[PushNotificationManager startLocationTracking]
+-[PushNotificationManager stopLocationTracking]
+-[PushNotificationManager setUserId:]
+-[PushNotificationManager mergeUserId:to:doMerge:completion:]
+-[PushNotificationManager postEvent:withAttributes:completion:]
+-[PushNotificationManager postEvent:withAttributes:]
+-[PushNotificationManager sendSKPaymentTransactions:]
+-[PushNotificationManager sendPurchase:withPrice:currencyCode:andDate:]
+-[PushNotificationManager setTags:]
+-[PushNotificationManager setTags:withCompletion:]
+-[PushNotificationManager loadTags]
+-[PushNotificationManager loadTags:error:]
+-[PushNotificationManager sendBadges:]
+-[PushNotificationManager sendAppOpen]
++[PushNotificationManager destroy]
+-[PushNotificationManager delegate]
+-[PushNotificationManager setDelegate:]
+-[PushNotificationManager showPushnotificationAlert]
+-[PushNotificationManager setShowPushnotificationAlert:]
+-[PushNotificationManager launchNotification]
+-[PushNotificationManager setLaunchNotification:]
+-[PushNotificationManager notificationCenterDelegate]
+-[PushNotificationManager geoLocationManager]
+-[PushNotificationManager setGeoLocationManager:]
+-[PushNotificationManager dataManager]
+-[PushNotificationManager setDataManager:]
+-[PushNotificationManager pushNotificationManager]
+-[PushNotificationManager setPushNotificationManager:]
+-[PushNotificationManager inAppManager]
+-[PushNotificationManager setInAppManager:]
+-[PushNotificationManager purchaseManager]
+-[PushNotificationManager setPurchaseManager:]
+-[PushNotificationManager richPushManager]
+-[PushNotificationManager setRichPushManager:]
+-[PushNotificationManager tagsManager]
+-[PushNotificationManager setTagsManager:]
+-[PushNotificationManager .cxx_destruct]
+_pushManagerInstance
+_pushManagerOncePred
+_OBJC_IVAR_$_PushNotificationManager.showPushnotificationAlert
+_OBJC_IVAR_$_PushNotificationManager._pushNotificationManager
+_OBJC_IVAR_$_PushNotificationManager._inAppManager
+_OBJC_IVAR_$_PushNotificationManager._purchaseManager
+_OBJC_IVAR_$_PushNotificationManager._richPushManager
+_OBJC_IVAR_$_PushNotificationManager._geoLocationManager
+_OBJC_IVAR_$_PushNotificationManager._dataManager
+_OBJC_IVAR_$_PushNotificationManager._notificationCenterDelegate
+_OBJC_IVAR_$_PushNotificationManager.delegate
+_OBJC_IVAR_$_PushNotificationManager._launchNotification
+_OBJC_IVAR_$_PushNotificationManager._tagsManager
+-[PWUnregisterDeviceRequest methodName]
+-[PWUnregisterDeviceRequest requestDictionary]
+-[PWGetBeaconsRequest methodName]
+-[PWGetBeaconsRequest requestDictionary]
+-[PWGetBeaconsRequest parseResponse:]
+-[PWGetBeaconsRequest uuid]
+-[PWGetBeaconsRequest setUuid:]
+-[PWGetBeaconsRequest indoorOffset]
+-[PWGetBeaconsRequest setIndoorOffset:]
+-[PWGetBeaconsRequest .cxx_destruct]
+_OBJC_IVAR_$_PWGetBeaconsRequest._uuid
+_OBJC_IVAR_$_PWGetBeaconsRequest._indoorOffset
+-[PWAppOpenRequest methodName]
+-[PWAppOpenRequest requestDictionary]
+-[PWPushStatRequest methodName]
+-[PWPushStatRequest requestDictionary]
+-[PWPushStatRequest hash]
+-[PWPushStatRequest setHash:]
+-[PWPushStatRequest .cxx_destruct]
+_OBJC_IVAR_$_PWPushStatRequest.hash
+-[PWCombinedSetTagsRequest init]
+-[PWCombinedSetTagsRequest methodName]
+-[PWCombinedSetTagsRequest addRequest:]
+-[PWCombinedSetTagsRequest requestDictionary]
+-[PWCombinedSetTagsRequest setHttpCode:]
+-[PWCombinedSetTagsRequest requests]
+-[PWCombinedSetTagsRequest setRequests:]
+-[PWCombinedSetTagsRequest .cxx_destruct]
+_OBJC_IVAR_$_PWCombinedSetTagsRequest._requests
+-[PWPostEventRequest methodName]
+-[PWPostEventRequest requestDictionary]
+-[PWPostEventRequest convertAttributes:]
+-[PWPostEventRequest convertAttribute:]
+-[PWPostEventRequest parseResponse:]
+-[PWPostEventRequest event]
+-[PWPostEventRequest setEvent:]
+-[PWPostEventRequest attributes]
+-[PWPostEventRequest setAttributes:]
+-[PWPostEventRequest resultCode]
+-[PWPostEventRequest setResultCode:]
+-[PWPostEventRequest .cxx_destruct]
+_OBJC_IVAR_$_PWPostEventRequest._event
+_OBJC_IVAR_$_PWPostEventRequest._attributes
+_OBJC_IVAR_$_PWPostEventRequest._resultCode
+-[PWInteractionDisabledView hitTest:withEvent:]
+-[PWRichPushManager init]
+-[PWRichPushManager showPushPage:]
+-[PWRichPushManager showCustomPushPageWithURLString:]
+-[PWRichPushManager showHTMLViewControllerWithURLString:]
+___57-[PWRichPushManager showHTMLViewControllerWithURLString:]_block_invoke
+-[PWRichPushManager showWebView]
+___32-[PWRichPushManager showWebView]_block_invoke
+___copy_helper_block_.42
+___destroy_helper_block_.43
+-[PWRichPushManager hidePushWindow]
+___35-[PWRichPushManager hidePushWindow]_block_invoke
+___copy_helper_block_.47
+___destroy_helper_block_.48
+___35-[PWRichPushManager hidePushWindow]_block_invoke.50
+___copy_helper_block_.51
+___destroy_helper_block_.52
+-[PWRichPushManager htmlWebViewControllerReadyForShow:]
+-[PWRichPushManager htmlWebViewControllerDidClose:]
+-[PWRichPushManager richPushWindow]
+-[PWRichPushManager setRichPushWindow:]
+-[PWRichPushManager supportedOrientations]
+-[PWRichPushManager setSupportedOrientations:]
+-[PWRichPushManager .cxx_destruct]
+_OBJC_IVAR_$_PWRichPushManager._richPushWindow
+_OBJC_IVAR_$_PWRichPushManager._supportedOrientations
+___block_descriptor_tmp.44
+___block_descriptor_tmp.49
+___block_descriptor_tmp.54
+l_OBJC_PROTOCOL_$_PWHtmlWebViewControllerDelegate
+l_OBJC_LABEL_PROTOCOL_$_PWHtmlWebViewControllerDelegate
+-[PWRegisterTestDeviceRequest methodName]
+-[PWRegisterTestDeviceRequest requestDictionary]
+-[PWRegisterTestDeviceRequest parseResponse:]
+-[PWRegisterTestDeviceRequest name]
+-[PWRegisterTestDeviceRequest setName:]
+-[PWRegisterTestDeviceRequest desc]
+-[PWRegisterTestDeviceRequest setDesc:]
+-[PWRegisterTestDeviceRequest .cxx_destruct]
+_OBJC_IVAR_$_PWRegisterTestDeviceRequest._name
+_OBJC_IVAR_$_PWRegisterTestDeviceRequest._desc
+-[PWSetAttributesRequest methodName]
+-[PWSetAttributesRequest requestDictionary]
+-[EasyJSWebView initWithFrame:]
+-[EasyJSWebView init]
+-[EasyJSWebView initWithCoder:]
+-[EasyJSWebView initEasyJS]
+-[EasyJSWebView setDelegate:]
+-[EasyJSWebView addJavascriptInterfaces:WithName:]
+-[EasyJSWebView proxyDelegate]
+-[EasyJSWebView setProxyDelegate:]
+-[EasyJSWebView .cxx_destruct]
+_OBJC_IVAR_$_EasyJSWebView.proxyDelegate
+-[PWGetResourcesRequest requestDictionary]
+-[PWGetResourcesRequest parseResponse:]
+-[PWGetResourcesRequest methodName]
+-[PWGetResourcesRequest resources]
+-[PWGetResourcesRequest setResources:]
+-[PWGetResourcesRequest .cxx_destruct]
+_OBJC_IVAR_$_PWGetResourcesRequest._resources
+-[PWPushNotificationsManager init]
+-[PWPushNotificationsManager setUpInAppAlerts]
+-[PWPushNotificationsManager startPushInfoFromInfoDictionary:]
+-[PWPushNotificationsManager preHandlePushReceived:onStart:]
+-[PWPushNotificationsManager showForegroundAlert:onStart:withOptions:]
+___70-[PWPushNotificationsManager showForegroundAlert:onStart:withOptions:]_block_invoke
+-[PWUserNotificationCenterDelegate initWithNotificationManager:]
+-[PWUserNotificationCenterDelegate userNotificationCenter:willPresentNotification:withCompletionHandler:]
+-[PWUserNotificationCenterDelegate userNotificationCenter:didReceiveNotificationResponse:withCompletionHandler:]
+-[PWUserNotificationCenterDelegate isRemoteNotification:]
+-[PWUserNotificationCenterDelegate pushPayloadFromNotification:]
+-[PWUserNotificationCenterDelegate notificationManager]
+-[PWUserNotificationCenterDelegate setNotificationManager:]
+-[PWUserNotificationCenterDelegate .cxx_destruct]
+_OBJC_IVAR_$_PWUserNotificationCenterDelegate._notificationManager
+l_OBJC_PROTOCOL_$_UNUserNotificationCenterDelegate
+l_OBJC_LABEL_PROTOCOL_$_UNUserNotificationCenterDelegate
++[PWNotificationAction actionWithTitle:handler:]
+-[PWNotificationAction title]
+-[PWNotificationAction setTitle:]
+-[PWNotificationAction handler]
+-[PWNotificationAction setHandler:]
+-[PWNotificationAction .cxx_destruct]
++[PWNotification supportsSecureCoding]
++[PWNotification notificationWithMessage:]
++[PWNotification notificationWithTitle:message:]
++[PWNotification notificationWithTitle:message:icon:date:]
+-[PWNotification initWithMessage:]
+-[PWNotification initWithTitle:message:]
+-[PWNotification initWithTitle:message:icon:date:]
+-[PWNotification copyWithZone:]
+-[PWNotification description]
+-[PWNotification title]
+-[PWNotification setTitle:]
+-[PWNotification message]
+-[PWNotification setMessage:]
+-[PWNotification icon]
+-[PWNotification setIcon:]
+-[PWNotification date]
+-[PWNotification setDate:]
+-[PWNotification displaysWithRelativeDateFormatting]
+-[PWNotification setDisplaysWithRelativeDateFormatting:]
+-[PWNotification soundName]
+-[PWNotification setSoundName:]
+-[PWNotification defaultAction]
+-[PWNotification setDefaultAction:]
+-[PWNotification otherActions]
+-[PWNotification setOtherActions:]
+-[PWNotification appIdentifier]
+-[PWNotification setAppIdentifier:]
+-[PWNotification userInfo]
+-[PWNotification setUserInfo:]
+-[PWNotification .cxx_destruct]
+_OBJC_IVAR_$_PWNotificationAction._title
+_OBJC_IVAR_$_PWNotificationAction._handler
+_OBJC_IVAR_$_PWNotification._title
+_OBJC_IVAR_$_PWNotification._message
+_OBJC_IVAR_$_PWNotification._icon
+_OBJC_IVAR_$_PWNotification._date
+_OBJC_IVAR_$_PWNotification._displaysWithRelativeDateFormatting
+_OBJC_IVAR_$_PWNotification._soundName
+_OBJC_IVAR_$_PWNotification._defaultAction
+_OBJC_IVAR_$_PWNotification._otherActions
+_OBJC_IVAR_$_PWNotification._appIdentifier
+_OBJC_IVAR_$_PWNotification._userInfo
+l_OBJC_PROTOCOL_$_NSCopying
+l_OBJC_LABEL_PROTOCOL_$_NSCopying
+-[_PWWindowSizedView didMoveToWindow]
+-[_PWStatusBarStylePreservingViewController loadView]
+-[_PWStatusBarStylePreservingViewController preferredStatusBarStyle]
+-[PWNotificationBannerWindow initWithFrame:]
+-[PWNotificationBannerWindow initWithFrame:style:]
+-[PWNotificationBannerWindow isNotificationViewShown]
+-[PWNotificationBannerWindow presentNotification:completionBlock:]
+___66-[PWNotificationBannerWindow presentNotification:completionBlock:]_block_invoke
+___66-[PWNotificationBannerWindow presentNotification:completionBlock:]_block_invoke.101
+___66-[PWNotificationBannerWindow presentNotification:completionBlock:]_block_invoke_2
+___copy_helper_block_.102
+___destroy_helper_block_.103
+___copy_helper_block_.105
+___destroy_helper_block_.106
+___66-[PWNotificationBannerWindow presentNotification:completionBlock:]_block_invoke.124
+___copy_helper_block_.127
+___destroy_helper_block_.128
+___66-[PWNotificationBannerWindow presentNotification:completionBlock:]_block_invoke.130
+___66-[PWNotificationBannerWindow presentNotification:completionBlock:]_block_invoke_2.133
+___copy_helper_block_.134
+___destroy_helper_block_.135
+___copy_helper_block_.137
+___destroy_helper_block_.138
+-[PWNotificationBannerWindow dismissNotificationViewWithCompletionBlock:]
+-[PWNotificationBannerWindow _dismissNotificationViewWithCompletionBlock:force:]
+___80-[PWNotificationBannerWindow _dismissNotificationViewWithCompletionBlock:force:]_block_invoke
+___copy_helper_block_.146
+___destroy_helper_block_.147
+___80-[PWNotificationBannerWindow _dismissNotificationViewWithCompletionBlock:force:]_block_invoke.149
+___copy_helper_block_.150
+___destroy_helper_block_.151
+___80-[PWNotificationBannerWindow _dismissNotificationViewWithCompletionBlock:force:]_block_invoke.153
+___copy_helper_block_.154
+___destroy_helper_block_.155
+-[PWNotificationBannerWindow hitTest:withEvent:]
+-[PWNotificationBannerWindow _dismissFromSwipe]
+-[PWNotificationBannerWindow _userTappedNotification]
+-[PWNotificationBannerWindow setHidden:]
+-[PWNotificationBannerWindow addConstraint:]
+-[PWNotificationBannerWindow ignoresAddedConstraints]
+-[PWNotificationBannerWindow setIgnoresAddedConstraints:]
+-[PWNotificationBannerWindow .cxx_destruct]
+_OBJC_IVAR_$_PWNotificationBannerWindow._notificationView
+_OBJC_IVAR_$_PWNotificationBannerWindow._topConstraint
+_OBJC_IVAR_$_PWNotificationBannerWindow._swipeView
+_OBJC_IVAR_$_PWNotificationBannerWindow._sgr
+_OBJC_IVAR_$_PWNotificationBannerWindow._tgr
+_OBJC_IVAR_$_PWNotificationBannerWindow._notificationViewShown
+_OBJC_IVAR_$_PWNotificationBannerWindow._lastShowDate
+_OBJC_IVAR_$_PWNotificationBannerWindow._pendingCompletionHandler
+___block_descriptor_tmp.104
+___block_descriptor_tmp.108
+___block_descriptor_tmp.129
+___block_descriptor_tmp.139
+___block_descriptor_tmp.148
+___block_descriptor_tmp.152
+___block_descriptor_tmp.156
+_OBJC_IVAR_$_PWNotificationBannerWindow._ignoresAddedConstraints
+-[PWRegisterDeviceRequest methodName]
+-[PWRegisterDeviceRequest buildSoundsList]
+-[PWRegisterDeviceRequest requestDictionary]
+-[PWRegisterDeviceRequest parseResponse:]
+___41-[PWRegisterDeviceRequest parseResponse:]_block_invoke
+-[PWRegisterDeviceRequest pushToken]
+-[PWRegisterDeviceRequest setPushToken:]
+-[PWRegisterDeviceRequest .cxx_destruct]
+_OBJC_IVAR_$_PWRegisterDeviceRequest._pushToken
+-[PWProcessBeaconRequest requestDictionary]
+-[PWProcessBeaconRequest stringForAction:]
+-[PWProcessBeaconRequest methodName]
+-[PWProcessBeaconRequest action]
+-[PWProcessBeaconRequest setAction:]
+-[PWProcessBeaconRequest major]
+-[PWProcessBeaconRequest setMajor:]
+-[PWProcessBeaconRequest minor]
+-[PWProcessBeaconRequest setMinor:]
+-[PWProcessBeaconRequest uuid]
+-[PWProcessBeaconRequest setUuid:]
+-[PWProcessBeaconRequest indoorThresholdInterval]
+-[PWProcessBeaconRequest setIndoorThresholdInterval:]
+-[PWProcessBeaconRequest .cxx_destruct]
+_OBJC_IVAR_$_PWProcessBeaconRequest._uuid
+_OBJC_IVAR_$_PWProcessBeaconRequest._major
+_OBJC_IVAR_$_PWProcessBeaconRequest._minor
+_OBJC_IVAR_$_PWProcessBeaconRequest._action
+_OBJC_IVAR_$_PWProcessBeaconRequest._indoorThresholdInterval
+-[EasyJSWebViewProxyDelegate addJavascriptInterfaces:WithName:]
+-[EasyJSWebViewProxyDelegate webView:didFailLoadWithError:]
+-[EasyJSWebViewProxyDelegate webViewDidFinishLoad:]
+-[EasyJSWebViewProxyDelegate webView:shouldStartLoadWithRequest:navigationType:]
+-[EasyJSWebViewProxyDelegate webViewDidStartLoad:]
+-[EasyJSWebViewProxyDelegate realDelegate]
+-[EasyJSWebViewProxyDelegate setRealDelegate:]
+-[EasyJSWebViewProxyDelegate javascriptInterfaces]
+-[EasyJSWebViewProxyDelegate setJavascriptInterfaces:]
+-[EasyJSWebViewProxyDelegate .cxx_destruct]
+_OBJC_IVAR_$_EasyJSWebViewProxyDelegate.javascriptInterfaces
+_OBJC_IVAR_$_EasyJSWebViewProxyDelegate.realDelegate
+-[PWInteractionDisabledWindow hitTest:withEvent:]
+-[PWHtmlWebViewController initWithURLString:]
+-[PWHtmlWebViewController prefersStatusBarHidden]
+-[PWHtmlWebViewController viewDidLoad]
+-[PWHtmlWebViewController dealloc]
+-[PWHtmlWebViewController closeButtonAction]
+-[PWHtmlWebViewController shouldAutorotateToInterfaceOrientation:]
+-[PWHtmlWebViewController supportedInterfaceOrientations]
+-[PWHtmlWebViewController shouldAutorotate]
+-[PWHtmlWebViewController webViewDidStartLoad:]
+-[PWHtmlWebViewController webViewDidFinishLoad:]
+-[PWHtmlWebViewController webView:didFailLoadWithError:]
+-[PWHtmlWebViewController webView:shouldStartLoadWithRequest:navigationType:]
+___77-[PWHtmlWebViewController webView:shouldStartLoadWithRequest:navigationType:]_block_invoke
+-[PWHtmlWebViewController webview]
+-[PWHtmlWebViewController setWebview:]
+-[PWHtmlWebViewController activityIndicator]
+-[PWHtmlWebViewController setActivityIndicator:]
+-[PWHtmlWebViewController supportedOrientations]
+-[PWHtmlWebViewController setSupportedOrientations:]
+-[PWHtmlWebViewController delegate]
+-[PWHtmlWebViewController setDelegate:]
+-[PWHtmlWebViewController .cxx_destruct]
+_OBJC_IVAR_$_PWHtmlWebViewController.supportedOrientations
+_OBJC_IVAR_$_PWHtmlWebViewController.delegate
+-[_PWFakeBlurringView initWithFrame:]
+-[_PWFakeBlurringView contentView]
+-[_PWFakeBlurringView .cxx_destruct]
+-[_PWFakeVibrancyView initWithFrame:]
+-[_PWFakeVibrancyView contentView]
+-[_PWFakeVibrancyView .cxx_destruct]
+-[PWNotificationBannerView initWithFrame:]
+-[PWNotificationBannerView initWithFrame:style:]
+-[PWNotificationBannerView backgroundView]
+-[PWNotificationBannerView notificationContentView]
+-[PWNotificationBannerView layoutSubviews]
+-[PWNotificationBannerView configureForNotification:]
+-[PWNotificationBannerView currentNotification]
+-[PWNotificationBannerView .cxx_destruct]
+_OBJC_IVAR_$__PWFakeBlurringView._contentView
+l_OBJC_PROTOCOL_$__PWBackgroundViewCommon
+l_OBJC_LABEL_PROTOCOL_$__PWBackgroundViewCommon
+_OBJC_IVAR_$__PWFakeVibrancyView._contentView
+_OBJC_IVAR_$_PWNotificationBannerView._notificationContentView
+_OBJC_IVAR_$_PWNotificationBannerView._appIcon
+_OBJC_IVAR_$_PWNotificationBannerView._titleLabel
+_OBJC_IVAR_$_PWNotificationBannerView._messageLabel
+_OBJC_IVAR_$_PWNotificationBannerView._dateLabel
+_OBJC_IVAR_$_PWNotificationBannerView._backgroundView
+_OBJC_IVAR_$_PWNotificationBannerView._currentNotification
+-[PWGetTagsRequest methodName]
+-[PWGetTagsRequest requestDictionary]
+-[PWGetTagsRequest parseResponse:]
+-[PWGetTagsRequest tags]
+-[PWGetTagsRequest setTags:]
+-[PWGetTagsRequest .cxx_destruct]
+_OBJC_IVAR_$_PWGetTagsRequest._tags
+-[PWPurchaseManager dealloc]
+-[PWPurchaseManager init]
+-[PWPurchaseManager sendSKPaymentTransactions:]
+-[PWPurchaseManager paymentQueue:updatedTransactions:]
+-[PWPurchaseManager productsRequest:didReceiveResponse:]
+-[PWPurchaseManager sendPurchase:withPrice:currencyCode:andDate:]
+___65-[PWPurchaseManager sendPurchase:withPrice:currencyCode:andDate:]_block_invoke
+-[PWPurchaseManager sendSKPayments:]
+___36-[PWPurchaseManager sendSKPayments:]_block_invoke
+-[PWPurchaseManager transactionsArray]
+-[PWPurchaseManager setTransactionsArray:]
+-[PWPurchaseManager productArray]
+-[PWPurchaseManager setProductArray:]
+-[PWPurchaseManager requestManager]
+-[PWPurchaseManager setRequestManager:]
+-[PWPurchaseManager .cxx_destruct]
+_OBJC_IVAR_$_PWPurchaseManager._requestManager
+___block_descriptor_tmp.100
+___block_literal_global.101
+_OBJC_IVAR_$_PWPurchaseManager._transactionsArray
+_OBJC_IVAR_$_PWPurchaseManager._productArray
+l_OBJC_PROTOCOL_$_SKRequestDelegate
+l_OBJC_LABEL_PROTOCOL_$_SKRequestDelegate
+l_OBJC_PROTOCOL_$_SKProductsRequestDelegate
+l_OBJC_LABEL_PROTOCOL_$_SKProductsRequestDelegate
+l_OBJC_PROTOCOL_$_SKPaymentTransactionObserver
+l_OBJC_LABEL_PROTOCOL_$_SKPaymentTransactionObserver
+-[PWRequest methodName]
+-[PWRequest requestDictionary]
+-[PWRequest baseDictionary]
+-[PWRequest parseResponse:]
+-[PWRequest httpCode]
+-[PWRequest setHttpCode:]
+_OBJC_IVAR_$_PWRequest._httpCode
+-[EasyJSDataFunction initWithWebView:]
+-[EasyJSDataFunction execute]
+-[EasyJSDataFunction executeWithParam:]
+-[EasyJSDataFunction executeWithParams:]
+-[EasyJSDataFunction funcID]
+-[EasyJSDataFunction setFuncID:]
+-[EasyJSDataFunction webView]
+-[EasyJSDataFunction setWebView:]
+-[EasyJSDataFunction removeAfterExecute]
+-[EasyJSDataFunction setRemoveAfterExecute:]
+-[EasyJSDataFunction .cxx_destruct]
+_OBJC_IVAR_$_EasyJSDataFunction.funcID
+_OBJC_IVAR_$_EasyJSDataFunction.webView
+_OBJC_IVAR_$_EasyJSDataFunction.removeAfterExecute
+-[PWResource encodeWithCoder:]
+-[PWResource initWithCoder:]
+-[PWResource initWithDictionary:]
+-[PWResource presentationStyle]
+-[PWResource isDownloaded]
+-[PWResource localPath]
+-[PWResource configUrl]
+-[PWResource pageUrl]
+-[PWResource deleteData]
+-[PWResource downloadDataWithCompletion:]
+___41-[PWResource downloadDataWithCompletion:]_block_invoke
+___41-[PWResource downloadDataWithCompletion:]_block_invoke_2
+___copy_helper_block_.94
+___destroy_helper_block_.95
+___41-[PWResource downloadDataWithCompletion:]_block_invoke.106
+___41-[PWResource downloadDataWithCompletion:]_block_invoke_2.115
+___copy_helper_block_.116
+___destroy_helper_block_.117
+___copy_helper_block_.121
+___destroy_helper_block_.122
+-[PWResource processZipFileAtLocation:completion:]
+___50-[PWResource processZipFileAtLocation:completion:]_block_invoke
+___50-[PWResource processZipFileAtLocation:completion:]_block_invoke_2
+___50-[PWResource processZipFileAtLocation:completion:]_block_invoke_3
+___copy_helper_block_.130
+___destroy_helper_block_.131
+___copy_helper_block_.133
+___destroy_helper_block_.134
+-[PWResource readConfig]
+-[PWResource registerDownloadListener:]
+-[PWResource getHTMLDataWithCompletion:]
+___40-[PWResource getHTMLDataWithCompletion:]_block_invoke
+___40-[PWResource getHTMLDataWithCompletion:]_block_invoke_2
+___copy_helper_block_.174
+___destroy_helper_block_.175
+___copy_helper_block_.179
+___destroy_helper_block_.180
+-[PWResource loadHTMLDataWithCompletion:]
+___41-[PWResource loadHTMLDataWithCompletion:]_block_invoke
+___41-[PWResource loadHTMLDataWithCompletion:]_block_invoke_2
+___41-[PWResource loadHTMLDataWithCompletion:]_block_invoke_3
+___copy_helper_block_.182
+___destroy_helper_block_.183
+___copy_helper_block_.185
+___destroy_helper_block_.186
+___copy_helper_block_.205
+___destroy_helper_block_.206
+-[PWResource postProcessPageUsingParameters:regex:pageContent:]
+-[PWResource isRichMedia]
+-[PWResource code]
+-[PWResource url]
+-[PWResource closeButton]
+-[PWResource updated]
+-[PWResource tags]
+-[PWResource config]
+-[PWResource setConfig:]
+-[PWResource locked]
+-[PWResource setLocked:]
+-[PWResource presentationStyleKey]
+-[PWResource setPresentationStyleKey:]
+-[PWResource downloadListeners]
+-[PWResource setDownloadListeners:]
+-[PWResource lastError]
+-[PWResource setLastError:]
+-[PWResource .cxx_destruct]
+_OBJC_IVAR_$_PWResource._code
+_OBJC_IVAR_$_PWResource._url
+_OBJC_IVAR_$_PWResource._updated
+_OBJC_IVAR_$_PWResource._closeButton
+_OBJC_IVAR_$_PWResource._presentationStyleKey
+_OBJC_IVAR_$_PWResource._downloadListeners
+_OBJC_IVAR_$_PWResource._locked
+_OBJC_IVAR_$_PWResource._tags
+_OBJC_IVAR_$_PWResource._lastError
+___block_descriptor_tmp.97
+___block_descriptor_tmp.118
+___block_descriptor_tmp.124
+___block_descriptor_tmp.132
+___block_descriptor_tmp.176
+___block_descriptor_tmp.181
+___block_descriptor_tmp.184
+___block_descriptor_tmp.188
+___block_descriptor_tmp.207
+_OBJC_IVAR_$_PWResource._config
+l_OBJC_PROTOCOL_$_NSCoding
+l_OBJC_LABEL_PROTOCOL_$_NSCoding
+-[PWJavaScriptCallback execute]
+-[PWJavaScriptCallback executeWithParam:]
+-[PWJavaScriptCallback executeWithParams:]
++[PWInAppManager sharedManager]
+___31+[PWInAppManager sharedManager]_block_invoke
+-[PWInAppManager init]
+-[PWInAppManager setUserId:]
+-[PWInAppManager mergeUserId:to:doMerge:completion:]
+-[PWInAppManager postEvent:withAttributes:completion:]
+-[PWInAppManager postEvent:withAttributes:]
+-[PWInAppManager addJavascriptInterface:withName:]
++[PWInAppManager destroy]
+-[PWInAppManager inAppMessagesManager]
+-[PWInAppManager setInAppMessagesManager:]
+-[PWInAppManager .cxx_destruct]
+_inAppManagerOnceToken
+_inAppManagerInstance
+_OBJC_IVAR_$_PWInAppManager._inAppMessagesManager
+__ZN9pushwooshL16unzlocal_getLongEPKNS_19zlib_filefunc_def_sEPvPm
+__ZN9pushwooshL17unzlocal_getShortEPKNS_19zlib_filefunc_def_sEPvPm
+__ZN9pushwooshL35unzlocal_GetCurrentFileInfoInternalEPvPNS_15unz_file_info_sEPNS_24unz_file_info_internal_sEPcmS0_mS5_m
+__ZN9pushwooshL16unzlocal_getByteEPKNS_19zlib_filefunc_def_sEPvPi
+-[PWPushNotificationsManagerCommon init]
+-[PWPushNotificationsManagerCommon updateRegistration]
+___54-[PWPushNotificationsManagerCommon updateRegistration]_block_invoke
+-[PWPushNotificationsManagerCommon registerForPushNotifications]
+___64-[PWPushNotificationsManagerCommon registerForPushNotifications]_block_invoke
+___copy_helper_block_.34
+___destroy_helper_block_.35
+-[PWPushNotificationsManagerCommon unregisterForPushNotifications]
++[PWPushNotificationsManagerCommon getRemoteNotificationStatus]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___63+[PWPushNotificationsManagerCommon getRemoteNotificationStatus]_block_invoke
+___copy_helper_block_.49
+___destroy_helper_block_.50
++[PWPushNotificationsManagerCommon clearNotificationCenter]
+-[PWPushNotificationsManagerCommon sendDevTokenToServer:]
+-[PWPushNotificationsManagerCommon sendDevTokenToServer:triggerCallbacks:]
+___74-[PWPushNotificationsManagerCommon sendDevTokenToServer:triggerCallbacks:]_block_invoke
+___copy_helper_block_.89
+___destroy_helper_block_.90
+-[PWPushNotificationsManagerCommon unregisterDevice]
+___52-[PWPushNotificationsManagerCommon unregisterDevice]_block_invoke
+-[PWPushNotificationsManagerCommon handlePushRegistrationString:]
+-[PWPushNotificationsManagerCommon handlePushRegistration:]
+-[PWPushNotificationsManagerCommon handlePushRegistrationFailure:]
+-[PWPushNotificationsManagerCommon processUserInfo:]
+___52-[PWPushNotificationsManagerCommon processUserInfo:]_block_invoke
+___copy_helper_block_.159
+___destroy_helper_block_.160
+-[PWPushNotificationsManagerCommon startPushInfoFromInfoDictionary:]
+-[PWPushNotificationsManagerCommon preHandlePushReceived:onStart:]
+-[PWPushNotificationsManagerCommon showForegroundAlert:onStart:withOptions:]
+-[PWPushNotificationsManagerCommon handlePushReceived:withOptions:]
+-[PWPushNotificationsManagerCommon handlePushAccepted:onStart:]
+-[PWPushNotificationsManagerCommon getApnPayload:]
+-[PWPushNotificationsManagerCommon getCustomPushData:]
+-[PWPushNotificationsManagerCommon getCustomPushDataAsNSDict:]
+-[PWPushNotificationsManagerCommon registerTestDevice]
+___54-[PWPushNotificationsManagerCommon registerTestDevice]_block_invoke
+-[PWPushNotificationsManagerCommon lastPushMessageHash]
+-[PWPushNotificationsManagerCommon setLastPushMessageHash:]
+-[PWPushNotificationsManagerCommon requestManager]
+-[PWPushNotificationsManagerCommon setRequestManager:]
+-[PWPushNotificationsManagerCommon notificationManagerCompat]
+-[PWPushNotificationsManagerCommon setNotificationManagerCompat:]
+-[PWPushNotificationsManagerCommon .cxx_destruct]
+_OBJC_IVAR_$_PWPushNotificationsManagerCommon._notificationManagerCompat
+___block_descriptor_tmp.37
+___block_descriptor_tmp.51
+_OBJC_IVAR_$_PWPushNotificationsManagerCommon._requestManager
+___block_descriptor_tmp.92
+___block_descriptor_tmp.162
+_OBJC_IVAR_$_PWPushNotificationsManagerCommon._lastPushMessageHash
+___block_descriptor_tmp.224
+___block_literal_global.225
++[PWMessageViewController presentWithResource:]
+-[PWMessageViewController presentInWindow:]
+-[PWMessageViewController loadView]
+-[PWMessageViewController initWithResource:window:]
+-[PWMessageViewController viewDidLoad]
+___38-[PWMessageViewController viewDidLoad]_block_invoke
+-[PWMessageViewController cleanAnimation]
+-[PWMessageViewController runAnimaiton]
+___39-[PWMessageViewController runAnimaiton]_block_invoke
+___copy_helper_block_.129
+___destroy_helper_block_.130
+___39-[PWMessageViewController runAnimaiton]_block_invoke.133
+___copy_helper_block_.136
+___destroy_helper_block_.137
+___39-[PWMessageViewController runAnimaiton]_block_invoke.142
+___copy_helper_block_.143
+___destroy_helper_block_.144
+-[PWMessageViewController closeController]
+___42-[PWMessageViewController closeController]_block_invoke
+___42-[PWMessageViewController closeController]_block_invoke.149
+___42-[PWMessageViewController closeController]_block_invoke.153
+-[PWMessageViewController preferredStatusBarStyle]
+-[PWMessageViewController prefersStatusBarHidden]
+-[PWMessageViewController webClientDidFinishLoad:]
+___50-[PWMessageViewController webClientDidFinishLoad:]_block_invoke
+___copy_helper_block_.168
+___destroy_helper_block_.169
+___50-[PWMessageViewController webClientDidFinishLoad:]_block_invoke.171
+___copy_helper_block_.176
+___destroy_helper_block_.177
+-[PWMessageViewController webClientDidStartClose:]
+-[PWMessageViewController supportedInterfaceOrientations]
+-[PWMessageViewController shouldAutorotate]
+-[PWMessageViewController webView]
+-[PWMessageViewController setWebView:]
+-[PWMessageViewController closeButton]
+-[PWMessageViewController setCloseButton:]
+-[PWMessageViewController resource]
+-[PWMessageViewController setResource:]
+-[PWMessageViewController downloadIndicator]
+-[PWMessageViewController setDownloadIndicator:]
+-[PWMessageViewController downloadIndicatorBackground]
+-[PWMessageViewController setDownloadIndicatorBackground:]
+-[PWMessageViewController supportedOrientations]
+-[PWMessageViewController setSupportedOrientations:]
+-[PWMessageViewController barStyle]
+-[PWMessageViewController setBarStyle:]
+-[PWMessageViewController webClient]
+-[PWMessageViewController setWebClient:]
+-[PWMessageViewController window]
+-[PWMessageViewController setWindow:]
+-[PWMessageViewController .cxx_destruct]
+_OBJC_IVAR_$_PWMessageViewController._resource
+_OBJC_IVAR_$_PWMessageViewController._barStyle
+_OBJC_IVAR_$_PWMessageViewController._window
+_OBJC_IVAR_$_PWMessageViewController._supportedOrientations
+_OBJC_IVAR_$_PWMessageViewController._webView
+_OBJC_IVAR_$_PWMessageViewController._webClient
+_OBJC_IVAR_$_PWMessageViewController._downloadIndicatorBackground
+_OBJC_IVAR_$_PWMessageViewController._downloadIndicator
+_OBJC_IVAR_$_PWMessageViewController._closeButton
+_OBJC_IVAR_$_PWMessageViewController.appeared
+___block_descriptor_tmp.145
+___block_descriptor_tmp.170
+___block_descriptor_tmp.178
+l_OBJC_PROTOCOL_$_PWWebClientDelegate
+l_OBJC_LABEL_PROTOCOL_$_PWWebClientDelegate
+-[PWRequestManager init]
+-[PWRequestManager baseUrl]
+-[PWRequestManager sendRequest:completion:]
+-[PWRequestManager sendTags:completion:]
+___40-[PWRequestManager sendTags:completion:]_block_invoke
+___40-[PWRequestManager sendTags:completion:]_block_invoke_2
+-[PWRequestManager sendRequestInternal:completion:]
+___51-[PWRequestManager sendRequestInternal:completion:]_block_invoke
+___51-[PWRequestManager sendRequestInternal:completion:]_block_invoke.89
+-[PWRequestManager processResponse:responseData:request:url:requestData:error:]
+-[PWRequestManager downloadDataFromURL:withCompletion:]
+___55-[PWRequestManager downloadDataFromURL:withCompletion:]_block_invoke
+___copy_helper_block_.153
+___destroy_helper_block_.154
+-[PWRequestManager session]
+-[PWRequestManager setSession:]
+-[PWRequestManager sendTagsLock]
+-[PWRequestManager setSendTagsLock:]
+-[PWRequestManager combinedRequest]
+-[PWRequestManager setCombinedRequest:]
+-[PWRequestManager sendTagsCompleitons]
+-[PWRequestManager setSendTagsCompleitons:]
+-[PWRequestManager .cxx_destruct]
+_OBJC_IVAR_$_PWRequestManager._session
+_OBJC_IVAR_$_PWRequestManager._sendTagsLock
+_OBJC_IVAR_$_PWRequestManager._sendTagsCompleitons
+_OBJC_IVAR_$_PWRequestManager._combinedRequest
+___block_descriptor_tmp.41
+___block_descriptor_tmp.95
+__ZL15__ARCLite__loadv
+__ZL30add_image_hook_autoreleasepoolPK11mach_headerl
+__ZL34__arclite_objc_autoreleasePoolPushv
+__ZL33__arclite_objc_autoreleasePoolPopPv
+__ZL19patch_lazy_pointersPK11mach_headerP7patch_tm
+__ZL42__arclite_NSArray_objectAtIndexedSubscriptP7NSArrayP13objc_selectorj
+__ZL53__arclite_NSMutableArray_setObject_atIndexedSubscriptP14NSMutableArrayP13objc_selectorP11objc_objectj
+__ZL46__arclite_NSDictionary_objectForKeyedSubscriptP12NSDictionaryP13objc_selectorP11objc_object
+__ZL47__arclite_NSOrderedSet_objectAtIndexedSubscriptP12NSOrderedSetP13objc_selectorj
+__ZL58__arclite_NSMutableOrderedSet_setObject_atIndexedSubscriptP19NSMutableOrderedSetP13objc_selectorP11objc_objectj
+__ZL58__arclite_NSMutableDictionary__setObject_forKeyedSubscriptP19NSMutableDictionaryP13objc_selectorP11objc_objectS4_
+__ZL18add_image_hook_ARCPK11mach_headerl
+__ZL36__arclite_object_setInstanceVariableP11objc_objectPKcPv
+__ZL24__arclite_object_setIvarP11objc_objectP9objc_ivarS0_
+__ZL21__arclite_object_copyP11objc_objectm
+__ZL21__arclite_objc_retainP11objc_object
+__ZL26__arclite_objc_retainBlockP11objc_object
+__ZL22__arclite_objc_releaseP11objc_object
+__ZL26__arclite_objc_autoreleaseP11objc_object
+__ZL32__arclite_objc_retainAutoreleaseP11objc_object
+__ZL37__arclite_objc_autoreleaseReturnValueP11objc_object
+__ZL43__arclite_objc_retainAutoreleaseReturnValueP11objc_object
+__ZL44__arclite_objc_retainAutoreleasedReturnValueP11objc_object
+__ZL26__arclite_objc_storeStrongPP11objc_objectS0_
+__ZL22add_image_hook_swiftV1PK11mach_headerl
+__ZL42__arclite_NSUndoManagerProxy_isKindOfClassP11objc_objectP13objc_selectorP10objc_class
+__ZL13replaceMethodP10objc_classP13objc_selectorPFP11objc_objectS4_S2_zEPS6_
+__ZL30__arclite_NSManagedObject_initP11objc_objectP13objc_selector
+__ZL41__arclite_NSManagedObject_allocWithEntityP11objc_objectP13objc_selectorS0_
+__ZL36__arclite_NSManagedObject_allocBatchP11objc_objectP13objc_selectorPS0_S0_j
+__ZL37__arclite_NSKKMS_fastIndexForKnownKeyP11objc_objectP13objc_selectorS0_
+__ZL28__arclite_NSKKMS_indexForKeyP11objc_objectP13objc_selectorS0_
+__ZL29__arclite_NSKKsD_objectForKeyP11objc_objectP13objc_selectorS0_
+__ZL35__arclite_NSKKsD_removeObjectForKeyP11objc_objectP13objc_selectorS0_
+__ZL33__arclite_NSKKsD_setObject_forKeyP11objc_objectP13objc_selectorS0_S0_
+__ZL41__arclite_NSKKsD_addEntriesFromDictionaryP11objc_objectP13objc_selectorP12NSDictionary
+__ZL28__arclite_objc_readClassPairP10objc_classPK15objc_image_info
+__ZL32__arclite_objc_allocateClassPairP10objc_classPKcm
+__ZL32__arclite_object_getIndexedIvarsP11objc_object
+__ZL23__arclite_objc_getClassPKc
+__ZL27__arclite_objc_getMetaClassPKc
+__ZL31__arclite_objc_getRequiredClassPKc
+__ZL26__arclite_objc_lookUpClassPKc
+__ZL26__arclite_objc_getProtocolPKc
+__ZL23__arclite_class_getNameP10objc_class
+__ZL26__arclite_protocol_getNameP8Protocol
+__ZL37__arclite_objc_copyClassNamesForImagePKcPj
+__ZL17transcribeMethodsP10objc_classP15glue_class_ro_t
+__ZL19transcribeProtocolsP10objc_classP15glue_class_ro_t
+__ZL20transcribePropertiesP10objc_classP15glue_class_ro_t
+__ZL14initialize_impP11objc_objectP13objc_selector
+__ZL18allocateMaybeSwiftP18glue_swift_class_tm
+__ZL22copySwiftV1MangledNamePKcb
+__ZL13demangledNamePKcb
+__ZL16scanMangledFieldRPKcS0_S1_Ri
+__ZL30arclite_uninitialized_functionv
+__ZL12cxxConstructP11objc_object
+__ZL20fixStringForCoreDataP11objc_object
+_OBJC_METACLASS_$___ARCLite__
+__ZL24OBJC_CLASS_$___ARCLite__
+__ZL31OBJC_METACLASS_RO_$___ARCLite__
+__non_lazy_classes
+__ZL27OBJC_CLASS_RO_$___ARCLite__
+__ZL11_class_name
+__ZL32OBJC_$_CLASS_METHODS___ARCLite__
+__ZL17_load_method_name
+__ZL17_load_method_type
+__ZL23NSAutoreleasePool_class
+__ZZL30add_image_hook_autoreleasepoolPK11mach_headerlE7patches
+__ZGVZL30add_image_hook_autoreleasepoolPK11mach_headerlE7patches
+l_OBJC_PROTOCOL_$___ARCLiteIndexedSubscripting__
+l_OBJC_LABEL_PROTOCOL_$___ARCLiteIndexedSubscripting__
+l_OBJC_PROTOCOL_REFERENCE_$___ARCLiteIndexedSubscripting__
+l_OBJC_PROTOCOL_$___ARCLiteKeyedSubscripting__
+l_OBJC_LABEL_PROTOCOL_$___ARCLiteKeyedSubscripting__
+l_OBJC_PROTOCOL_REFERENCE_$___ARCLiteKeyedSubscripting__
+__ZZL18add_image_hook_ARCPK11mach_headerlE7patches
+__ZGVZL18add_image_hook_ARCPK11mach_headerlE7patches
+__ZL30NSUndoManagerProxy_targetClass
+__ZL29original_NSManagedObject_init
+__ZL40original_NSManagedObject_allocWithEntity
+__ZL35original_NSManagedObject_allocBatch
+__ZL25NSMutableDictionary_class
+__ZL22NSConstantString_class
+__ZL14NSString_class
+__ZL36original_NSKKMS_fastIndexForKnownKey
+__ZL27original_NSKKMS_indexForKey
+__ZL28original_NSKKsD_objectForKey
+__ZL34original_NSKKsD_removeObjectForKey
+__ZL32original_NSKKsD_setObject_forKey
+__ZL40original_NSKKsD_addEntriesFromDictionary
+__ZZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZGVZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZL31original_objc_allocateClassPair
+__ZL31original_object_getIndexedIvars
+__ZL22original_objc_getClass
+__ZL26original_objc_getMetaClass
+__ZL30original_objc_getRequiredClass
+__ZL25original_objc_lookUpClass
+__ZL25original_objc_getProtocol
+__ZL22original_class_getName
+__ZL25original_protocol_getName
+__ZL36original_objc_copyClassNamesForImage
+__ZL12demangleLock
+__ZL9Demangled
+Apple LLVM version 8.0.0 (clang-800.0.42.1)
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -Wno-trigraphs -fno-exceptions -fno-rtti -mpascal-strings -Os -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -D NDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.Internal.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -miphoneos-version-min=4.3 -g -fno-threadsafe-statics -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -fembed-bitcode -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~1093/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-generated-files.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~1093/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-own-target-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~1093/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-all-target-headers.hmap -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~1093/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-project-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~1093/Symbols/BuiltProducts/include -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~1093/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources/armv7 -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~1093/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources -F/Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~1093/Symbols/BuiltProducts -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.Internal.sdk/System/Library/PrivateFrameworks -Wall -Wextra -Wno-gcc-compat -fgnu-inline-asm -Wno-error=incomplete-umbrella -Wno-error=incomplete-umbrella -MMD -MT dependencies -MF /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~1093/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.d --serialize-diagnostics /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~1093/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.dia -c /Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-65/source/arclite.mm -o /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~1093/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.o -mlinker-version=274.2 -march=armv7a
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-65/source/arclite.mm
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-65
+fixStringForCoreData
+cxxConstruct
+arclite_uninitialized_function
+scanMangledField
+isdigit
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.Internal.sdk/usr/include/ctype.h
+__isctype
+demangledName
+copySwiftV1DemangledName
+copySwiftV1MangledName
+allocateMaybeSwift
+word_align
+isSwift
+initialize_imp
+transcribeProperties
+property_list_nth
+transcribeProtocols
+transcribeMethods
+data
+method_list_nth
+__arclite_objc_copyClassNamesForImage
+__arclite_protocol_getName
+__arclite_class_getName
+__arclite_objc_getProtocol
+__arclite_objc_lookUpClass
+__arclite_objc_getRequiredClass
+__arclite_objc_getMetaClass
+__arclite_objc_getClass
+__arclite_object_getIndexedIvars
+__arclite_objc_allocateClassPair
+metaclass
+__arclite_objc_readClassPair
+transcribeIvars
+ivar_list_nth
+max
+alignment
+ro
+fastFlags
+__arclite_NSKKsD_addEntriesFromDictionary
+__arclite_NSKKsD_setObject_forKey
+__arclite_NSKKsD_removeObjectForKey
+__arclite_NSKKsD_objectForKey
+__arclite_NSKKMS_indexForKey
+__arclite_NSKKMS_fastIndexForKnownKey
+__arclite_NSManagedObject_allocBatch
+__arclite_NSManagedObject_allocWithEntity
+__arclite_NSManagedObject_init
+replaceMethod
+__arclite_NSUndoManagerProxy_isKindOfClass
+add_image_hook_swiftV1
+patch_t<const char **(const char *, unsigned int *)>
+patch_t<const char *(Protocol *)>
+patch_t<const char *(Class)>
+patch_t<Protocol *(const char *)>
+patch_t<Class (const char *)>
+patch_t<void *(id)>
+patch_t<Class (Class, const char *, unsigned long)>
+patch_t<Class (Class, const objc_image_info *)>
+__arclite_objc_storeStrong
+__arclite_objc_release
+__arclite_objc_retain
+__arclite_objc_retainAutoreleasedReturnValue
+__arclite_objc_retainAutoreleaseReturnValue
+__arclite_objc_autoreleaseReturnValue
+__arclite_objc_retainAutorelease
+__arclite_objc_autorelease
+__arclite_objc_retainBlock
+__arclite_object_copy
+fixupCopiedReferences
+_class_getInstanceStart
+alignedInstanceStart
+__arclite_class_usesAutomaticRetainRelease
+classOrSuperClassesUseARR
+__arclite_object_setIvar
+isScannedOffset
+_ivar_getClass
+__arclite_object_setInstanceVariable
+add_image_hook_ARC
+patch_t<void (id *, id)>
+patch_t<id (id)>
+patch_t<void (id)>
+patch_t<id (id, unsigned long)>
+patch_t<void (id, objc_ivar *, id)>
+patch_t<objc_ivar *(id, const char *, void *)>
+__arclite_NSMutableDictionary__setObject_forKeyedSubscript
+__arclite_NSMutableOrderedSet_setObject_atIndexedSubscript
+__arclite_NSOrderedSet_objectAtIndexedSubscript
+__arclite_NSDictionary_objectForKeyedSubscript
+__arclite_NSMutableArray_setObject_atIndexedSubscript
+__arclite_NSArray_objectAtIndexedSubscript
+patch_lazy_pointers
+__arclite_objc_autoreleasePoolPop
+__arclite_objc_autoreleasePoolPush
+add_image_hook_autoreleasepool
+patch_t<void (void *)>
+patch_t<void *()>
+__ARCLite__load
+install_swiftV1
+install_ARC
+install_dict_nil_value
+addOrReplaceMethod
+keyedGetter
+install_subscripting
+addMethod
+indexedGetter
+install_autoreleasepool

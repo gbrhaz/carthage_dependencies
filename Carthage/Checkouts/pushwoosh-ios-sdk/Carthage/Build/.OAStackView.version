@@ -1,0 +1,9 @@
+{
+  "commitish" : "1.0.1",
+  "iOS" : [
+    {
+      "hash" : "b72dcfc24283db2e45c7918478d3f1ed2b9241a5145fa7481606b773c046cb79",
+      "name" : "OAStackView"
+    }
+  ]
+}
