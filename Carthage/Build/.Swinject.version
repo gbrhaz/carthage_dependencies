@@ -1,9 +1,0 @@
-{
-  "commitish" : "2.0.0",
-  "iOS" : [
-    {
-      "hash" : "ec5633b8f62df654b7db706d7a7c32b0d3e5aa1a3afc61c21fbc1c65793adcd9",
-      "name" : "Swinject"
-    }
-  ]
-}
