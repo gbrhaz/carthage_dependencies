@@ -1,9 +1,0 @@
-{
-  "commitish" : "1.5.6",
-  "iOS" : [
-    {
-      "hash" : "9bfc5ec8aa474ed26c1dda411fac771dacf83472e82327d98cecc33bee77c9df",
-      "name" : "MGSwipeTableCell"
-    }
-  ]
-}
