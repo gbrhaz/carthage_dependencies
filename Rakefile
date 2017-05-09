@@ -80,6 +80,15 @@ def carthage_frameworks
   framework_paths.map { |path| Pathname.new(path).basename  }
 end
 
+def list_of_frameworks_to_archive
+  frameworks = Array.new
+  Dir.glob("Carthage/Build/iOS/*.framework") { |file|
+    name = File.basename(file, ".*")
+    frameworks.push(name)
+  }
+  frameworks
+end
+
 namespace "carthage" do
   desc 'Check the project’s dependencies'
   task :check_dependencies do
@@ -93,16 +102,16 @@ namespace "carthage" do
   desc 'Update the project’s dependencies.'
   task :update do
     puts "Updating Carthage dependencies…"
-    next if frameworks_exist?
+    # next if frameworks_exist?
     update_success = system "carthage update --platform #{PLATFORM} --no-use-binaries --cache-builds"
     fail unless update_success
   end
 
   desc 'Update the project’s dependencies.'
-  task archive: :update do
+  task :archive do
     puts "Updating Carthage dependencies…"
-    frameworks = carthage_frameworks
-    system "cd .. && carthage archive #{frameworks} --output WorldRemitDependencies.framework.zip"
+    frameworks = list_of_frameworks_to_archive.join(" ")  #carthage_frameworks
+    system "carthage archive #{frameworks} --output WorldRemitDependencies.framework.zip"
   end
 
   desc 'Clean Carthage dependencies'
