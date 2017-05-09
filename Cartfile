@@ -1,4 +1,0 @@
-github "ReactiveCocoa/ReactiveCocoa" == 5.0.0
-github "ReactiveCocoa/ReactiveSwift" == 1.0.1
-github "antitypical/Result" == 3.2.1
-github "Pushwoosh/pushwoosh-ios-sdk" == 5.1.6
