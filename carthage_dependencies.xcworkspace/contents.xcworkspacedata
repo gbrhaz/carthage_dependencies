@@ -4,4 +4,7 @@
    <FileRef
       location = "container:carthage_dependencies.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:carthage_dependencies.playground">
+   </FileRef>
 </Workspace>
