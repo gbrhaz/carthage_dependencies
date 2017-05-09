@@ -1,0 +1,9 @@
+{
+  "commitish" : "2.0.1",
+  "iOS" : [
+    {
+      "hash" : "0019625152394bd56143171adc6cff6ab322fb6a860c1c3432e2e0137e9468ae",
+      "name" : "Async"
+    }
+  ]
+}

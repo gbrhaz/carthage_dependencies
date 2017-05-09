@@ -111,6 +111,12 @@ namespace "carthage" do
   end
 
   desc 'Update the project’s dependencies.'
+  task :build do
+    puts "Updating Carthage dependencies…"
+    system "carthage build --no-skip-current --platform iOS"
+  end
+
+  desc 'Update the project’s dependencies.'
   task :archive do
     puts "Updating Carthage dependencies…"
     frameworks = list_of_frameworks_to_archive.join(" ")  #carthage_frameworks

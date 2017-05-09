@@ -1,0 +1,17 @@
+{
+  "commitish" : "a09021edf33417153fdf1066275f888c3b59fc6e",
+  "iOS" : [
+    {
+      "hash" : "20950e23e4e1061c093e077eb082c5f7484208380b983d31e2be349d7603bdb2",
+      "name" : "FacebookLogin"
+    },
+    {
+      "hash" : "4dbc6e38da2a45cc30ecbb85324d81e91932b28ac97c60db8c4b3fd3210697fe",
+      "name" : "FacebookCore"
+    },
+    {
+      "hash" : "b43f07cd7494b1d8af0e01b0874332776d1212fa34dcbdf2cf951d488401d7fb",
+      "name" : "FacebookShare"
+    }
+  ]
+}
