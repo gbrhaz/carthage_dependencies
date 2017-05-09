@@ -104,7 +104,7 @@ namespace "carthage" do
     puts "Updating Carthage dependencies…"
     # next if frameworks_exist?
     # update_success = system "carthage update --platform #{PLATFORM} --no-use-binaries --cache-builds"
-    update_success = system "carthage bootstrap --platform #{PLATFORM} --no-use-binaries"
+    update_success = system "carthage bootstrap --platform #{PLATFORM} --no-use-binaries --no-build"
     fail unless update_success
     binary_success = system "carthage update #{BINARY_DEPENDENCIES.join(' ')}"
     fail unless binary_success
