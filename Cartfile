@@ -1,25 +1,4 @@
-github "Alamofire/Alamofire" == 4.4.0
-github "Alamofire/AlamofireNetworkActivityIndicator" == 2.1.0
 github "ReactiveCocoa/ReactiveCocoa" == 5.0.0
 github "ReactiveCocoa/ReactiveSwift" == 1.0.1
 github "antitypical/Result" == 3.2.1
-github "Swinject/Swinject" == 2.0.0
-github "Swinject/SwinjectStoryboard" == 1.0.0
-github "Skyscanner/SkyFloatingLabelTextField" == 3.0.0
-github "robb/Cartography" == 1.1.0
-github "kishikawakatsumi/KeychainAccess" == 3.0.2
-github "oarrabi/OAStackView" == 1.0.1
-github "TTTAttributedLabel/TTTAttributedLabel" == 2.0.0
-github "marmelroy/PhoneNumberKit" == 1.2.3
-github "SVProgressHUD/SVProgressHUD" == 2.1.2
-github "RNCryptor/RNCryptor" == 5.0.1
-github "Hearst-DD/ObjectMapper" == 2.2.5
-github "MortimerGoro/MGSwipeTableCell" == 1.5.6
-github "kasketis/netfox" "89ec667"
-github "hackiftekhar/IQKeyboardManager" == 4.0.8
-github "skywinder/ActionSheetPicker-3.0" == 2.2.0
-github "aleclarson/emitter-kit" == 5.0.1
-github "duemunk/Async" == 2.0.1
-github "facebook/facebook-sdk-swift" "a09021e"
-github "facebook/facebook-ios-sdk" "sdk-version-4.21.0"
 github "Pushwoosh/pushwoosh-ios-sdk" == 5.1.6
