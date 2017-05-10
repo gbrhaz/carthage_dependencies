@@ -84,6 +84,7 @@ def list_of_frameworks_to_archive
   frameworks = Array.new
   Dir.glob("Carthage/Build/iOS/*.framework") { |file|
     name = File.basename(file, ".*")
+    puts name
     frameworks.push(name)
   }
   frameworks
@@ -113,7 +114,7 @@ namespace "carthage" do
   desc 'Update the project’s dependencies.'
   task :build do
     puts "Updating Carthage dependencies…"
-    system "carthage build --no-skip-current --platform iOS"
+    system "carthage build --no-skip-current --platform iOS --cache-builds"
   end
 
   desc 'Update the project’s dependencies.'
